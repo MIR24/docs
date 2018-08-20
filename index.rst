@@ -4,7 +4,8 @@
 
 .. toctree::
    :maxdepth: 2
-
-   Время эфира
+   :caption: Table of Contents
+   
+   Airing
 
    
