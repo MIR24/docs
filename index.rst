@@ -5,11 +5,7 @@
 .. toctree::
    :maxdepth: 2
    
-    airing
-   
-.. toctree::
-   :maxdepth: 2
-
+   airing
    front/mobile
 
 
