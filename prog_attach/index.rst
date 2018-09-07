@@ -9,28 +9,28 @@
 
 Привязка телеканала к передаче осуществляется в разделе передач:
 
-.. image:: images/channel_attachment/in_menu.png
+.. image:: /images/channel_attachment/in_menu.png
    :width: 50 %
    :align: center
 
 Заходим в редактирование передачи через кнопку ✎:
 
-.. image:: images/channel_attachment/in_section.png
+.. image:: /images/channel_attachment/in_section.png
    :width: 100 %
 
 В открывшемся окне находим пункт «Телеканалы»:
 
-.. image:: images/channel_attachment/in_edit_form.png
+.. image:: /images/channel_attachment/in_edit_form.png
    :width: 100 %
 
 При нажатии на «+» откроется выпадающее меню с телеканалами, доступными для привязки:
 
-.. image:: images/channel_attachment/dropdown_demo.png
+.. image:: /images/channel_attachment/dropdown_demo.png
    :width: 100 %
 
 При клике по каналу происходит его привязка к передаче, кнопка «Сохранить» фиксирует изменения:
 
-.. image:: images/channel_attachment/attach_demo.png
+.. image:: /images/channel_attachment/attach_demo.png
    :width: 100 %
 
 
@@ -40,27 +40,27 @@
 Для того, чтобы попасть на эту страницу, необходимо:
 1. Выбрать нужную передачу в списке передач:
 
-.. image:: images/channel_attachment/in_menu.png
+.. image:: /images/channel_attachment/in_menu.png
    :width: 50 %
    :align: center
 
-.. image:: images/channel_attachment/choose_program_demo.png
+.. image:: /images/channel_attachment/choose_program_demo.png
    :width: 100 %
 
 2. Выбрать необходимую публикацию:
 
-.. image:: images/channel_attachment/in_episodes_list.png
+.. image:: /images/channel_attachment/in_episodes_list.png
    :width: 100 %
 
 Далее на странице нужно найти поле "Телеканал" и кликнуть по "+" (1).
 Откроется ниспадающее меню с телеканалами (2):
 
-.. image:: images/channel_attachment/pub_channel_attach.png
+.. image:: /images/channel_attachment/pub_channel_attach.png
    :width: 100 %
 
 После выбора телеканала, чтобы изменения вступили в силу, необходимо нажать кнопку "Сохранить":
 
-.. image:: images/channel_attachment/pub_channel_done.png
+.. image:: /images/channel_attachment/pub_channel_done.png
    :width: 100 %
 
 Поздравляем! Вы привязали телеканал к публикации!
