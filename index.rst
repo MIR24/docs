@@ -5,7 +5,13 @@
 .. toctree::
    :maxdepth: 2
    
-   airing
+    airing
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Привязка телеканалов
+
+    prog_attach/index
 
    
 .. toctree::
