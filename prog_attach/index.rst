@@ -18,6 +18,12 @@
    :width: 50 %
    :align: center
 
+Передачи можно сортировать по нескольким каналам при помощи кнопок вверху страницы:
+
+.. image:: /images/programs/in_section_channels.png
+   :width: 50 %
+   :align: center
+
 Заходим в редактирование передачи через кнопку ✎:
 
 .. image:: /images/programs/in_section.png
