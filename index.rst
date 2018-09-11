@@ -10,3 +10,4 @@
    prog_attach/index
    cache/index
    incuts/index
+   tags/super/index
