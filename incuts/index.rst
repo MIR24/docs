@@ -51,3 +51,8 @@
 
 .. image:: /images/incuts/incuts_delete_btn.png
    :width: 100 %
+
+Нажимаем кнопку "ДА".
+
+.. image:: /images/incuts/incuts_delete_dialog.png
+   :width: 100 %
