@@ -5,7 +5,7 @@
 Типы тегов
 ==========
 
-1. tags/super/index
+1. :ref: `tags/super/index`
 2. Гео
 3. Обычные
 4. Промо
