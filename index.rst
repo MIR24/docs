@@ -8,3 +8,4 @@
    front/mobile
    prog_attach/index
    cache/index
+   incuts/index
