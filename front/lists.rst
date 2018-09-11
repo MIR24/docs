@@ -6,11 +6,11 @@
 
 Списки отображаются по следующим ссылкам:
 
-https://mir24.tv/news/list/all - список новостей
-https://mir24.tv/foto/service/list/filter/all - список фотолент
-https://mir24.tv/economy/super/list/filter/all - список публикаций в рубрике "Экономика"
-https://mir24.tv/news/search?q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&titleOnly=0 - поисковой запрос на сайте
-https://mir24.tv/topic/7887046 - сюжет "Гости эфира"
+* https://mir24.tv/news/list/all - список новостей
+* https://mir24.tv/foto/service/list/filter/all - список фотолент
+* https://mir24.tv/economy/super/list/filter/all - список публикаций в рубрике "Экономика"
+* https://mir24.tv/news/search?q=%D0%BF%D1%83%D1%82%D0%B8%D0%BD&titleOnly=0 - поисковой запрос на сайте
+* https://mir24.tv/topic/7887046 - сюжет "Гости эфира"
 
 Например:
 
