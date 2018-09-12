@@ -18,7 +18,7 @@
 .. image:: /images/incuts/incuts_create_btn.png
    :width: 100 %
 
-Заполоняем форму "Создание врезки". Нажимаем кнопку "Сохранить".
+Заполняем форму "Создание врезки". Нажимаем кнопку "Сохранить".
 
 .. image:: /images/incuts/incut_form_create.png
    :width: 100 %
