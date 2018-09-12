@@ -17,7 +17,7 @@
 .. image:: /images/cache/clear_cache_btn.png
    :width: 100 %
 
-В окне получаем детальную информацию о состояний кеша.
+В окне получаем детальную информацию о состоянии кеша.
 
 .. image:: /images/cache/cache_info.png
    :width: 100 %
