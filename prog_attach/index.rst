@@ -18,6 +18,11 @@
    :width: 50 %
    :align: center
 
+Передачи можно фильтровать по каналам при помощи кнопок вверху страницы:
+
+.. image:: /images/programs/in_section_channels.png
+   :width: 100 %
+
 Заходим в редактирование передачи через кнопку ✎:
 
 .. image:: /images/programs/in_section.png
@@ -55,6 +60,11 @@
 2. Выбрать необходимую публикацию:
 
 .. image:: /images/programs/in_episodes_list.png
+   :width: 100 %
+
+Для фильтрации публикаций передачи по каналам можно использовать кнопки с названием каналов вверху экрана:
+
+.. image:: /images/programs/in_episodes_list_channels.png
    :width: 100 %
 
 Далее на странице нужно найти поле "Телеканал" и кликнуть по "+" (1).

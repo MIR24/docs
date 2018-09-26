@@ -6,10 +6,10 @@
 
 Вид для стационарных устройств:
 
-.. image:: /images/desktop-detail.png
+.. image:: /images/front/desktop-detail.png
    :width: 100 %
 
 Вид для мобильных устройств:
 
-.. image:: /images/mobile-detail.png
+.. image:: /images/front/mobile-detail.png
    :width: 100 %
