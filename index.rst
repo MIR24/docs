@@ -7,3 +7,4 @@
    
    front/mobile
    prog_attach/index
+   image_edit/index
