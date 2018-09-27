@@ -12,4 +12,4 @@
    image_edit/index
    incuts/index
    tags/index
-   front/rss
+   front/rss/index
