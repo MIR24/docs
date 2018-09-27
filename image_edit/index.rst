@@ -48,9 +48,12 @@
 .. image:: /images/images_attach/left_right.jpg
    :width: 100 %
 
-Кнопка "удалить через 24 часа" позволяет удалить изображение через 24 часа.
+Кнопки "удалить через 24 часа" и "удалить через 31 день" позволяет удалить изображение через соответствующий промежуток времени.
 
-.. image:: /images/images_attach/remove_after.jpg
+.. image:: /images/images_attach/remove_after_1.jpg
+   :width: 100 %
+
+.. image:: /images/images_attach/remove_after_2.jpg
    :width: 100 %
 
 После сохранения новости поверх изображения появится плашка с датой и временем когда изображение будт удалено:
