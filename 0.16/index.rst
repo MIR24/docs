@@ -4,15 +4,15 @@
 
 Тикеты stories
 ==================
-https://mir24tv.atlassian.net/browse/MIRSCR-1057
-https://mir24tv.atlassian.net/browse/MIRSCR-598
-https://mir24tv.atlassian.net/browse/MIRSCR-802
-https://mir24tv.atlassian.net/browse/MIRSCR-832
-https://mir24tv.atlassian.net/browse/MIRSCR-834
-https://mir24tv.atlassian.net/browse/MIRSCR-883
-https://mir24tv.atlassian.net/browse/MIRSCR-920
-https://mir24tv.atlassian.net/browse/MIRSCR-972
-https://mir24tv.atlassian.net/browse/MIRSCR-1002
+https://mir24tv.atlassian.net/browse/MIRSCR-1057  
+https://mir24tv.atlassian.net/browse/MIRSCR-598  
+https://mir24tv.atlassian.net/browse/MIRSCR-802  
+https://mir24tv.atlassian.net/browse/MIRSCR-832  
+https://mir24tv.atlassian.net/browse/MIRSCR-834  
+https://mir24tv.atlassian.net/browse/MIRSCR-883  
+https://mir24tv.atlassian.net/browse/MIRSCR-920  
+https://mir24tv.atlassian.net/browse/MIRSCR-972  
+https://mir24tv.atlassian.net/browse/MIRSCR-1002  
 
 Тикеты все
 ==================
