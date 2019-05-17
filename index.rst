@@ -3,7 +3,7 @@
 ###################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    0.16/index
    0.16/*
