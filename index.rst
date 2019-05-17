@@ -4,12 +4,16 @@
 
 .. toctree::
    :maxdepth: 2
-   
-   front/mobile
-   front/lists
-   cache/index
-   prog_attach/index
-   image_edit/index
-   incuts/index
-   tags/index
-   front/rss/index
+
+   0.16/index
+   0.16/*
+
+   root/front/mobile
+   root/front/lists
+   root/cache/index
+   root/prog_attach/index
+   root/image_edit/index
+   root/incuts/index
+   root/tags/index
+   root/front/rss/index
+   root/*
