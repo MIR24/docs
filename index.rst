@@ -5,15 +5,14 @@
 .. toctree::
    :maxdepth: 3
 
-   0.16/index
-   0.16/*
+   release-notes/0.16.rst
 
-   root/front/mobile
-   root/front/lists
-   root/cache/index
-   root/prog_attach/index
-   root/image_edit/index
-   root/incuts/index
+   front/mobile
+   front/lists
+   cache/index
+   prog_attach/index
+   image_edit/index
+   rincuts/index
    root/tags/index
    root/front/rss/index
    root/*
