@@ -24,44 +24,44 @@
 
 Для каждого изображения отображаются несколько кропов c разным соотношением сторон. Клик по ячейке "нет кропа" откроет кроппер для соответствующего размера, где можно указать необходимую область обрезки.
 
-.. image:: root/images/images_attach/add_crop.jpg
+.. image:: images/images_attach/add_crop.jpg
    :width: 100 %
 
-.. image:: root/images/images_attach/cropper.jpg
+.. image:: images/images_attach/cropper.jpg
    :width: 100 %
 
 Для прикрепленных изображений можно указать метаинформацию, например alt, заголовок и копирайты в диалоговом окне метаинформации.
 
-.. image:: root/images/images_attach/meta_button.jpg
+.. image:: images/images_attach/meta_button.jpg
    :width: 100 %
 
-.. image:: root/images/images_attach/meta.jpg
+.. image:: images/images_attach/meta.jpg
    :width: 100 %
 
 Индикаторы в правом верхнем углу ячейки изображения показывают какие поля меты незаполнены.
 
-.. image:: root/images/images_attach/statuses.jpg
+.. image:: images/images_attach/statuses.jpg
    :width: 100 %
 
 Кнопки "Левее" и "Правее" позволяют двигать изображения в списке прикрепленных изображений, устанавливая порядок их отображения в карусели на детальной странице новости.
 
-.. image:: root/images/images_attach/left_right.jpg
+.. image:: images/images_attach/left_right.jpg
    :width: 100 %
 
 Кнопки "удалить через 24 часа" и "удалить через 31 день" позволяет удалить изображение через соответствующий промежуток времени. Данная опция работает только для опубликованных новостей. Установка флага на неактивной новости ни к чему не приведет.
 
-.. image:: root/images/images_attach/remove_after_1.jpg
+.. image:: images/images_attach/remove_after_1.jpg
    :width: 100 %
 
-.. image:: root/images/images_attach/remove_after_2.jpg
+.. image:: images/images_attach/remove_after_2.jpg
    :width: 100 %
 
 После сохранения новости поверх изображения появится плашка с датой и временем когда изображение будт удалено:
 
-.. image:: root/images/images_attach/remove_after_saved.jpg
+.. image:: images/images_attach/remove_after_saved.jpg
    :width: 100 %
 
 Кнопка "удалить" удаляет изображение
 
-.. image:: root/images/images_attach/delete.jpg
+.. image:: images/images_attach/delete.jpg
    :width: 100 %
