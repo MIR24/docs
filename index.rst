@@ -7,12 +7,12 @@
 
    release-notes/0.16.rst
 
-   front/mobile
+   front/mobile/*
    front/lists
    cache/index
    prog_attach/index
    image_edit/index
    rincuts/index
-   root/tags/index
-   root/front/rss/index
-   root/*
+   tags/index
+   front/rss/index
+   /*
