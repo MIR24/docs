@@ -3,7 +3,7 @@
 ###################
 
 .. toctree::
-   :maxdepth: 2
+   :maxdepth: 3
 
    release-notes/0.16.rst
    release-notes/0.17.rst
