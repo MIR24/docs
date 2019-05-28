@@ -3,16 +3,21 @@
 ###################
 
 .. toctree::
-   :maxdepth: 3
+   :maxdepth: 2
 
    release-notes/0.16.rst
+   release-notes/0.17.rst
 
-   front/mobile/*
-   front/lists
    cache/index
-   prog_attach/index
-   image_edit/index
-   rincuts/index
-   tags/index
+   front/mobile/mobile
+   front/mobile/page
    front/rss/index
-   /*
+   front/rss/ucbrowser/index
+   front/lists
+   image_edit/index
+   incuts/index
+   prog_attach/index
+
+   tags/index
+   tags/index/simple/index
+   tags/index/super/index
