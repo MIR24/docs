@@ -1,12 +1,19 @@
-###################
+**************************
 Мир24. Документация
-###################
+**************************
+
 
 .. toctree::
-   :maxdepth: 2
+   :caption: Заметки по релизам
+   :maxdepth: 1
 
    release-notes/0.16.rst
    release-notes/0.17.rst
+
+
+.. toctree::
+   :caption: Пользовательская документация
+   :maxdepth: 2
 
    cache/index
    front/mobile/mobile
@@ -19,5 +26,5 @@
    prog_attach/index
 
    tags/index
-   tags/index/simple/index
-   tags/index/super/index
+   tags/simple/index
+   tags/super/index
