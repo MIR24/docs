@@ -63,5 +63,5 @@
 
 Кнопка "удалить" удаляет изображение
 
-.. image:: images/images_attach/delete.jpg
+.. image:: /images/images_attach/delete.jpg
    :width: 100 %
