@@ -24,6 +24,7 @@
    image_edit/index
    incuts/index
    prog_attach/index
+   airing
 
    tags/index
    tags/simple/index
