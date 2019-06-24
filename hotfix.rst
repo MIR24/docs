@@ -7,11 +7,25 @@
 
 `MIRSCR-1098 <https://mir24tv.atlassian.net/browse/MIRSCR-1098>`_
 ------------
+Упрощен процесс сборки проекта для FS с учетом использования deployer.
 
+Из ``frontend-server/gulpfile.js`` убраны лишние манипуляции при деплое, производящие только сборку без переключения версии.
+Процесс деплоя упрощен в ``mir24-deploy/deploy.php`` с учетом изменений ``gulpfile.js``.
+Добавлена build команда в ``package.json`` для сборки production версии:
+
+.. code-block:: json
+   :emphasize-lines: 3
+
+   {
+   "gulp": "gulp",
+   "build": "gulp --production",
+   "dev": "gulp watch"
+   }
 
 `MIRSCR-1104 <https://mir24tv.atlassian.net/browse/MIRSCR-1104>`_
 ------------
-Исправлена проблема со счетчиком mail.ru
+Исправлена проблема со счетчиком mail.ru.
+Добавлен спот в футер мобильной версии.
 
 `MIRSCR-1106 <https://mir24tv.atlassian.net/browse/MIRSCR-1106>`_
 ------------
