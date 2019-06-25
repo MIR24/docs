@@ -2,6 +2,12 @@
 RSS
 ###########
 
+.. toctree::
+   :maxdepth: 2
+
+   other/ucbrowser
+
+
 RSS шаблон
 ==========
 

@@ -31,7 +31,6 @@
    front/mobile/mobile
    front/mobile/page
    front/rss/index
-   front/rss/ucbrowser/index
    front/lists
    image_edit/index
    incuts/index
