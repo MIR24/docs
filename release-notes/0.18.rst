@@ -1,0 +1,154 @@
+**************************
+Релиз ST-962 от 2-.06.2019
+**************************
+
+.. contents:: Содержание
+   :depth: 2
+
+
+
+`MIRSCR-1065 <https://mir24tv.atlassian.net/browse/MIRSCR-1065>`_
+--------------------
+Backend-server. ``OKClient``. Устранена ошибка переполнения папки ``/tmp``.
+
+При возникновении ошибок в работе с ``API Odnoklassniki``, происходило переполнение папки ``tmp``. Добавлена процедура очистки ``deleteTemp``.
+
+`MIRSCR-1036 <https://mir24tv.atlassian.net/browse/MIRSCR-1036>`_
+--------------------
+Сайт. Макеты разметки страниц.
+
+Перенесена группа meta-тегов перенесены выше тега:
+:code:`<script type="application/ld+json">...</script>`
+
+.. code-block:: html
+   :emphasize-lines: 3
+
+   <meta name="..." content="..."  >
+   <meta name="..." content="..." />
+   <script type="application/ld+json">...</script>
+
+`MIRSCR-1023 <https://mir24tv.atlassian.net/browse/MIRSCR-1023>`_
+--------------------
+Админка. Публикация видео. Добавлена на тип загружаемого файла.
+
+Исправлен функционал загрузки видео файлов, вызывающий  сообщения: "видео загружено" и "создаём плеер", при несоответствии загружаемого файла с типом видео файла.
+Реализована проверка, для загрузки видео, тип видеофайла файла должен соответствовать: ``mp4``.
+
+`MIRSCR-934 <https://mir24tv.atlassian.net/browse/MIRSCR-934>`_
+--------------------
+Исправлена проблема публикации видео на `Турбо-странице Яндекс <https://yandex.ru/turbo>`_.
+
+Произведена корректировка атрибутов для соответствия необходимым условиям, при передачи видео в новости на Турбо-странице Яндекс
+
+`MIRSCR-928 <https://mir24tv.atlassian.net/browse/MIRSCR-928>`_
+--------------------
+Служебные контроллеры. Формирование страницы.
+Исправлена ошибка, при которой в Мета-тег попадают запрещенные для использования символы.
+
+
+`MIRSCR-911 <https://mir24tv.atlassian.net/browse/MIRSCR-911>`_
+--------------------
+Админка. Публикация. Вставка кода в текст. Исправлена ошибка добавления 2-х ссылок встраиваемого видео imgur.com
+
+Исправлена некорректная работа кода ``{}`` в тексте публикации. Устранена ошибка выполнения 2х сценариев встраиваемого видео imgur.com, при которой второе видео отображается в виде ссылки.
+
+
+`MIRSCR-904 <https://mir24tv.atlassian.net/browse/MIRSCR-904>`_
+--------------------
+Админка. Далет. Восстановлена работа страницы `editors.mir24.tv/dalet <https://editors.mir24.tv/dalet>`_
+
+Исправлены критичные для открытия страницы ``/dalet``, ошибки в ``Dalet.js``
+
+
+`MIRSCR-891 <https://mir24tv.atlassian.net/browse/MIRSCR-891>`_
+--------------------
+Сайт. Страница новости. Исправлена ошибка отображения встраиваемого содержимого из Твиттера в публикации.
+
+Исправлена некорректная работа стилей ``style.css``, при которой в тексте публикации, верхний блок (со СМИ ) перекрывал нижний блок содержимого из twitter.
+Добавлен класс с отступом в ``style.css``:
+
+.. code-block:: css
+
+   .twitter-tweet{
+    margin-top: 75px !important;
+   }
+
+
+`MIRSCR-877 <https://mir24tv.atlassian.net/browse/MIRSCR-877>`_
+--------------------
+RSS. Яндекс.Видео. XML-фиды. Yandex video sitemap.
+Исправлена ошибка "Неизвестный тег ovs:video" в sitemap /yandex_video:
+https://mir24.tv/export/yandex_video/sitemap8.xml
+
+Указаны корректные заголовки:
+
+.. code-block:: xml
+
+   <urlset
+    xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+    xmlns:ovs="http://video.yandex.ru/schemas/video_import">
+
+
+`MIRSCR-890 <https://mir24tv.atlassian.net/browse/MIRSCR-890>`_
+--------------------
+RSS. XML-фиды. Исправлена проблема кеширования ``XML-feed``-а Яндекс.Видео.
+
+Устранена проблема, при которой ``yandex_video.xml`` не кешируется или кешируется в процессе ``HTTP`` запроса.
+Во избежание ответа с ошибки 504, тяжелый запрос `mir24.tv/export/yandex_video.xml <http://mir24.tv/export/yandex_video.xml>`_, Кешируется методом CachePage.
+
+
+`MIRSCR-860 <https://mir24tv.atlassian.net/browse/MIRSCR-860>`_
+--------------------
+Форма обратной связи. Исправлена ошибка повторной отправки данных после прохождения капчи.
+
+Исправлена проблема, вызывающая ошибку в работе страницы `feedback.html <https://mir24.tv/feedback.html>`_, связанная с расположением используемых файлов с ``cdn``.
+
+При которой, заполняя форму обратной связи некорректными данными, получали сообщение: "Ошибка сохранения анкеты. Повторите попытку позже.". После повторного нажатия, "отправить", сообщение с ошибкой ``validation.captcha``.
+
+
+`MIRSCR-859 <https://mir24tv.atlassian.net/browse/MIRSCR-859>`_
+--------------------
+Деплой. Исправлена ошибка при которой разворачивание FS происходит некорректно и не открывается главная страница.
+
+Исправлена логика деплоя, с использованием альтернативных команд, при которых ``backend-server`` не создаётся и не обрабатывается ситуация:
+
+Символическая ссылка на папку с кропами в ``public/uploaded`` существует, но ``uploaded_path`` ссылается на несуществующую папку ``backend-server-а``.
+
+`MIRSCR-844 <https://mir24tv.atlassian.net/browse/MIRSCR-844>`_
+--------------------
+
+`MIRSCR-835 <https://mir24tv.atlassian.net/browse/MIRSCR-835>`_
+--------------------
+
+`MIRSCR-798 <https://mir24tv.atlassian.net/browse/MIRSCR-798>`_
+--------------------
+
+`MIRSCR-733 <https://mir24tv.atlassian.net/browse/MIRSCR-733>`_
+--------------------
+
+`MIRSCR-688 <https://mir24tv.atlassian.net/browse/MIRSCR-688>`_
+--------------------
+
+`MIRSCR-672 <https://mir24tv.atlassian.net/browse/MIRSCR-672>`_
+--------------------
+
+`MIRSCR-658 <https://mir24tv.atlassian.net/browse/MIRSCR-658>`_
+--------------------
+
+`MIRSCR-620 <https://mir24tv.atlassian.net/browse/MIRSCR-620>`_
+--------------------
+
+`MIRSCR-686 <https://mir24tv.atlassian.net/browse/MIRSCR-686>`_
+--------------------
+
+`MIRSCR-1066 <https://mir24tv.atlassian.net/browse/MIRSCR-1066>`_
+--------------------
+
+`MIRSCR-1094 <https://mir24tv.atlassian.net/browse/MIRSCR-1094>`_
+--------------------
+
+`MIRSCR-1061 <https://mir24tv.atlassian.net/browse/MIRSCR-1061>`_
+--------------------
+
+`MIRSCR-1062 <https://mir24tv.atlassian.net/browse/MIRSCR-1062>`_
+--------------------

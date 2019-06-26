@@ -11,9 +11,9 @@
 .. toctree::
    :caption: Заметки по релизам
    :maxdepth: 1
+   :glob:
 
-   release-notes/0.16
-   release-notes/0.17
+   release-notes/*
 
 .. toctree::
    :caption: Заметки вне релиза
