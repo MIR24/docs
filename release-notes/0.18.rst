@@ -76,9 +76,9 @@ Backend-server. ``OKClient``. Устранена ошибка переполне
 
 `MIRSCR-877 <https://mir24tv.atlassian.net/browse/MIRSCR-877>`_
 --------------------
-RSS. Яндекс.Видео. XML-фиды. Yandex video sitemap.
-Исправлена ошибка "Неизвестный тег ovs:video" в sitemap /yandex_video:
-https://mir24.tv/export/yandex_video/sitemap8.xml
+RSS. Яндекс.Видео. XML-фиды. ``Yandex video sitemap``.
+Исправлена ошибка "Неизвестный тег ovs:video" в ``sitemap /yandex_video``:
+`export/yandex_video/sitemap8.xml <https://mir24.tv/export/yandex_video/sitemap8.xml>`_
 
 Указаны корректные заголовки:
 
@@ -176,13 +176,37 @@ RSS. Исправлена проблема некорректного наиме
 
 `MIRSCR-1066 <https://mir24tv.atlassian.net/browse/MIRSCR-1066>`_
 --------------------
+Исправлена сборка FS, при которой главная страница возвращает ошибку локально.
 
+Исправлена реализация кода для использования версии PHP 7.2, устранена ошибка:
+"Parameter must be an array or an object that implements Countable"
 
 `MIRSCR-1094 <https://mir24tv.atlassian.net/browse/MIRSCR-1094>`_
 --------------------
+.. attention:: NOT-TESTED! Task in READY FOR DEPLOY
+
+Сайт. Мобильная версия. Убрано баннерное место №22.
 
 `MIRSCR-1061 <https://mir24tv.atlassian.net/browse/MIRSCR-1061>`_
 --------------------
+RSS. Исключены все сущности с тегом ``АНОНСЫ``
+
+В список исключенных тегов из rss-фида добавлен тег: ``15354280 // АНОНСЫ``
+
+.. code-block:: php
+   :emphasize-lines: 9
+   :linenos:
+
+   <?php
+   ...
+   'excluded_by_tag' => [
+   15348067,   // МИР24 ПРЕСС-РЕЛИЗЫ
+   15348062,   // ЛИЦА МИРА
+   15348023,   // МИР24 РЕКЛАМА
+   15348024,   // МИР24 ВАКАНСИИ
+   15348025,   // МИР24 КОНТАКТЫ
+   15354280,   // АНОНСЫ
+   ],];
 
 `MIRSCR-1062 <https://mir24tv.atlassian.net/browse/MIRSCR-1062>`_
 --------------------
