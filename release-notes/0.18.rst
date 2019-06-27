@@ -183,8 +183,6 @@ RSS. Исправлена проблема некорректного наиме
 
 `MIRSCR-1094 <https://mir24tv.atlassian.net/browse/MIRSCR-1094>`_
 --------------------
-.. attention:: NOT-TESTED! Task in READY FOR DEPLOY
-
 Сайт. Мобильная версия. Убрано баннерное место №22.
 
 `MIRSCR-1061 <https://mir24tv.atlassian.net/browse/MIRSCR-1061>`_
@@ -210,3 +208,6 @@ RSS. Исключены все сущности с тегом ``АНОНСЫ``
 
 `MIRSCR-1062 <https://mir24tv.atlassian.net/browse/MIRSCR-1062>`_
 --------------------
+Сайт. Добавлен запрет на индексацию исключенной в `MIRSCR-1061 <https://mir24tv.atlassian.net/browse/MIRSCR-1061>`_ из rss сущности ``15354280 // АНОНСЫ``
+
+Публикуемые материалы с тегом "Анонсы" содержат заголовок ``X-Robots-Tag:noindex``, исключая индексацию данных страниц.
