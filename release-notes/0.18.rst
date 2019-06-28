@@ -148,7 +148,9 @@ RSS. Исправлена проблема некорректного наиме
 
 `MIRSCR-688 <https://mir24tv.atlassian.net/browse/MIRSCR-688>`_
 --------------------
+RSS. Исправлена ошибка в представлении rss для Яндекс.Видео.
 -
+
 
 `MIRSCR-672 <https://mir24tv.atlassian.net/browse/MIRSCR-672>`_
 --------------------
