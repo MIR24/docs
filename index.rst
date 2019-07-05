@@ -23,7 +23,7 @@
 
 
 .. toctree::
-   :caption: Административный интерфейс МИР24. Документация
+   :caption: Документация
    :maxdepth: 3
 
 
@@ -40,4 +40,4 @@
    tags/simple/index
    tags/super/index
 
-   main
+   
