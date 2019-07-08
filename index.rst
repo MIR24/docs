@@ -11,6 +11,7 @@
 .. toctree::
    :caption: Заметки по релизам
    :maxdepth: 1
+   :numbered:
    :glob:
 
    release-notes/*
@@ -18,7 +19,7 @@
 .. toctree::
    :caption: Заметки вне релиза
    :maxdepth: 3
-   :numbered:
+
 
    tikets
 
