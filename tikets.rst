@@ -13,7 +13,13 @@ READY FOR TEST
 ----------------
 
 
+All
+----------------
 
+.. table:: all
+===========
+Номер
+===========
 MIRSCR-1121
 MIRSCR-1118
 MIRSCR-1109
@@ -67,3 +73,4 @@ MIRSCR-698
 MIRSCR-644
 MIRSCR-623
 MIRSCR-446
+===========

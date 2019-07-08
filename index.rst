@@ -21,13 +21,21 @@
    :maxdepth: 3
 
 
-   tikets
 
 
 .. toctree::
    :caption: Документация
-   :maxdepth: 3
+   :maxdepth: 1
 
+
+   userdocs/index
+   userdocs/main
+   userdocs/site
+
+
+.. toctree::
+   :caption: Прочее
+   :maxdepth: 3
 
    cache/index
    front/mobile/mobile
