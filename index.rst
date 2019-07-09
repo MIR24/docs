@@ -18,34 +18,39 @@
 
 .. toctree::
    :caption: Заметки вне релиза
-   :maxdepth: 1
+   :maxdepth: 2
 
    tikets
 
 
+.. toctree::
+   :caption: Обновления
+   :maxdepth: 1
+
+   technical_tasks
+
 
 .. toctree::
    :caption: Документация
-   :maxdepth: 1
+   :maxdepth: 3
 
 
    userdocs/index
-   userdocs/main
-   userdocs/site
+
 
 
 .. toctree::
    :caption: Прочее
    :maxdepth: 3
 
-   cache/index
-   front/mobile/mobile
-   front/mobile/page
-   front/rss/index
-   front/lists
-   image_edit/index
-   incuts/index
-   prog_attach/index
+   userdocs/site_admin/cache/index
+   userdocs/site_view/front/mobile/mobile
+   userdocs/site_view/front/mobile/page
+   userdocs/site_view/front/rss/index
+   userdocs/site_view/front/lists
+   userdocs/site_admin/image_edit/index
+   userdocs/site_admin/incuts/index
+   userdocs/site_admin/prog_attach/index
 
    tags/index
    tags/simple/index
