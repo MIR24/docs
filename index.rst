@@ -18,7 +18,7 @@
 
 .. toctree::
    :caption: Заметки вне релиза
-   :maxdepth: 3
+   :maxdepth: 1
 
 
    tikets
