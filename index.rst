@@ -25,7 +25,8 @@
 
 .. toctree::
    :caption: Обновления
-   :maxdepth: 1
+   :maxdepth: 2
+   :numbered:
 
    technical_tasks
 
@@ -44,10 +45,10 @@
    :maxdepth: 3
 
    userdocs/site_admin/cache/index
-   userdocs/site_view/front/mobile/mobile
-   userdocs/site_view/front/mobile/page
-   userdocs/site_view/front/rss/index
-   userdocs/site_view/front/lists
+   userdocs/site_map/front/mobile/mobile
+   userdocs/site_map/front/mobile/page
+   userdocs/site_map/front/rss/index
+   userdocs/site_map/front/lists
    userdocs/site_admin/image_edit/index
    userdocs/site_admin/incuts/index
    userdocs/site_admin/prog_attach/index
