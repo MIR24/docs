@@ -1,5 +1,6 @@
 
-.. note::
+
+ .. note::
 
 	Скрытая страница для заметок и шаблонов по ReSt синтаксису.
 
@@ -8,11 +9,23 @@
 
 .. code-block:: text
 
+
+
+
+   Баг. MIRSCR-1020_
+	 ------------------------------------------
+
+
+
 	 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
 	 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
 	 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
 
 
+
+
+
+    ------------------------------------------------------------------
 
 ``
 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
