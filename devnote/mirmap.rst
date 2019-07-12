@@ -1,3 +1,6 @@
+map of links
+--------------
+
 /*
 //rss
 https://mir24.tv/rss/{название фида}/{id тега}

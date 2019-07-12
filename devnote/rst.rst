@@ -1,4 +1,5 @@
-
+Hidden notes
+--------------
 
  .. note::
 
