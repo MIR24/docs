@@ -28,7 +28,7 @@
    :maxdepth: 2
    :numbered:
 
-   taskdocs
+   updates/taskdocs
 
 
 .. toctree::
