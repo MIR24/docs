@@ -1,10 +1,18 @@
-map of links
---------------
+map of site links
+------------------
 
-/*
-//rss
-https://mir24.tv/rss/{название фида}/{id тега}
-https://mir24.tv/rss/{название тега}/{тип тега}
+.. code-block:: http
+
+   <code>
+   /*
+   //rss
+   https://mir24.tv/rss/{название фида}/{id тега}
+   https://mir24.tv/rss/{название тега}/{тип тега}
+
+
+
+   https://mir24.tv/export/yandex-zen.rss
+   https://mir24.tv/rss/
 
 
 //site
@@ -34,10 +42,12 @@ https://editors3.mir24.tv/pubs/press_release/create
 
 https://editors3.mir24.tv/programs
 
-
-imgscrops
+```
+//imgscrops
 https://imgtest.mir24.tv/uploaded/images/crops/2019/July/200x106_8x212_list_crop_4cdc3004de1d27ce2ea51757a195acb736e872a4a406b1d441da7e652a37a879.jpg
+
 200x106_
 8x212_
 list_crop_4cdc3004de1d27ce2ea51757a195acb736e872a4a406b1d441da7e652a37a879.jpg
+```
 */

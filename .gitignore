@@ -1,3 +1,4 @@
-conf.py
+conf*
 build
 link.html
+_static

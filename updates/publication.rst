@@ -6,6 +6,7 @@
 
 Баннерные места
 
+
 .. image:: /images/doc_news_add.jpg
    :width: 100 %
 

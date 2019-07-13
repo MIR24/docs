@@ -7,62 +7,57 @@ Hidden notes
 
 
 
-
 .. code-block:: text
 
 
+   Баг. MIRSCR-0000_
+	 ----------------------
 
 
-   Баг. MIRSCR-1020_
-	 ------------------------------------------
-
-
-
-	 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
-	 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
-	 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
+   ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
 
 
-
-
-    ------------------------------------------------------------------
+   ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
+   ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
+   ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
 
 ``
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
 
-
-
-|{tname}|
+|{project}|
 --------------------
 
-|{lnk}|
+|{tnum}|
 --------------------
 
-|{tname}|-839 <|{lnk}|>
+|{project}|-|{tnum}|
 --------------------
 
 
-.. |sec| replace::  Title <https://news.mail.ru/rss/economics/91/>`_
+.. |{project}| replace:: MIRSCR
 
-.. |{lnk}| replace:: https://mir24tv.atlassian.net/browse/MIRSCR
-
-.. |{tname}| replace:: MIRSCR
-
-`Title <|{lnk}|>`_
+.. |{tnum}| replace:: 839
 
 
 
+.. code-block:: text
+
+   |{project}|
+   --------------------
+   |{tnum}|
+   --------------------
+   |{project}|-|{tnum}|
+   --------------------
+
+   .. |{project}| replace:: MIRSCR
+   .. |{tnum}| replace:: 839
 
 
+
+
+
+```
 :ref:`MIRSCR-1104 <https://mir24tv.atlassian.net/browse/MIRSCR-1104>`
 
-
 `MIRSCR-.*$
-
-
-https://mir24.tv/export/yandex-zen.rss
-https://mir24.tv/rss/
-``
+```

@@ -28,7 +28,7 @@
    :maxdepth: 2
    :numbered:
 
-   technical_tasks
+   taskdocs
 
 
 .. toctree::
