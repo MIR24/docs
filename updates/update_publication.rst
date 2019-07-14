@@ -1,4 +1,4 @@
-.. _publication:
+.. _update_publication:
 
 ===============================================
 Публикация. Код zen.yandex перенесен в Баннер
@@ -30,7 +30,7 @@
 .. image:: /images/doc_pubs_banner.jpg
    :width: 100 %
 
-В поле 
+В поле
 
 updates/publication.rst
 
