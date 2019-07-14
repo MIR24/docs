@@ -3,11 +3,41 @@ map of site links
 
 .. code-block:: http
 
-   <code>
-   /*
    //rss
    https://mir24.tv/rss/{название фида}/{id тега}
    https://mir24.tv/rss/{название тега}/{тип тега}
+
+   Общие
+   /export/yandex.rss
+   /export/msn.rss
+   /export/ucbrowser.rss
+   /export/anews.rss
+   /export/google-feed.rss
+   /export/rambler.rss
+   /export/gismeteo.rss
+   /export/yandex-zen.rss
+   /export/flipboard.rss
+   /export/yandex-zen.rss
+   /export/google-newsstand.rss
+   /export/wifi.rss
+
+   По тегам
+   /rss/yandex/{tag}/{type}
+   /rss/google-feed/{tag}/{type}
+   /rss/rambler/{tag}/{type}
+   /rss/gismeteo/{tag}/{type}
+   /rss/yandex-zen/{tag}/{type}
+   /rss/flipboard/{tag}/{type}
+   /rss/google-newsstand/{tag}/{type}
+   /rss/msn/{tag}/{type}
+   /rss/wifi/{tag}/{type}
+   /rss/ucbrowser/{tag}/{type}
+   /rss/anews/{tag}/{type}
+
+   Список сайтмапов для Яндекс Видео
+   /export/yandex_video.xml
+   /export/yandex_video/sitemap{number}.xml
+   /export/yandex_video/view{id}.xml
 
 
 
