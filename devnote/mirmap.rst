@@ -1,7 +1,7 @@
 map of site links
 ------------------
 
-.. code-block:: http
+.. code-block:: text
 
    //rss
    https://mir24.tv/rss/{название фида}/{id тега}
