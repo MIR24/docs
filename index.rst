@@ -17,18 +17,19 @@
    release-notes/*
 
 .. toctree::
+   :caption: Обновления
+   :maxdepth: 1
+   :numbered:
+   
+   updates/taskdocs
+
+   
+.. toctree::
    :caption: Заметки вне релиза
    :maxdepth: 2
 
    tikets
 
-
-.. toctree::
-   :caption: Обновления
-   :maxdepth: 2
-   :numbered:
-   
-   updates/taskdocs
 
 
 .. toctree::
