@@ -90,9 +90,7 @@
 ------------------------------
 Сайт. Столбец "НОВОСТИ ДНЯ" переименован в "ПОСЛЕДНИЕ НОВОСТИ"
 
-История. MIRSCR-1130_
---------------------------------
--. Изменена генерация плеера для ``YouTube``
+
 
 
 
@@ -102,4 +100,3 @@
 ..	_MIRSCR-1066: https://mir24tv.atlassian.net/browse/MIRSCR-1066
 ..	_MIRSCR-718: https://mir24tv.atlassian.net/browse/MIRSCR-718
 ..	_MIRSCR-1138: https://mir24tv.atlassian.net/browse/MIRSCR-1138
-..	_MIRSCR-1130: https://mir24tv.atlassian.net/browse/MIRSCR-1130
