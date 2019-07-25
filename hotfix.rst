@@ -32,10 +32,11 @@
 Структурные элементы сайта. Футер. В линии "Мы на связи" сайта изменена телеграм-ссылка с https://t.me/mir24tv на https://t.me/nachalos
 
 
+..
 
-Баг. MIRSCR-1134_
-------------------------------------------
-Админка. Сюжеты. Исправлена ошибка в работе пагинации.
+  Баг. MIRSCR-1134_
+  ------------------------------------------
+  Админка. Сюжеты. Исправлена ошибка в работе пагинации. 
 
 
 Баг. MIRSCR-1135_
@@ -58,4 +59,5 @@
 
 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1134
 ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1135
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
+..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1131
+..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1020
