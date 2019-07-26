@@ -44,7 +44,7 @@ MIRSCR-1126_
 ..	_MIRSCR-1105: https://mir24tv.atlassian.net/browse/MIRSCR-1105
 ..	_MIRSCR-1139: https://mir24tv.atlassian.net/browse/MIRSCR-1139
 ..	_MIRSCR-1131: https://mir24tv.atlassian.net/browse/MIRSCR-1131
-.	_MIRSCR-1134: https://mir24tv.atlassian.net/browse/MIRSCR-1134
+..	_MIRSCR-1134: https://mir24tv.atlassian.net/browse/MIRSCR-1134
 ..	_MIRSCR-1135: https://mir24tv.atlassian.net/browse/MIRSCR-1135
 ..	_MIRSCR-1116: https://mir24tv.atlassian.net/browse/MIRSCR-1116
 ..	_MIRSCR-1143: https://mir24tv.atlassian.net/browse/MIRSCR-1143
