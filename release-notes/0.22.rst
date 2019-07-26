@@ -9,20 +9,32 @@
    :depth: 2
 
 
- . MIRSCR-1105_
+
+
+
+MIRSCR-1105_
 ------------------------------
-Сайт. Добавлена лента новостей.
 
+MIRSCR-1139_
+------------------------------
 
+MIRSCR-1131_
+------------------------------
 
-1105
-1139
-1131
-1134
-1135
-1116
-1143
-1126
+MIRSCR-1134_
+------------------------------
+
+MIRSCR-1135_
+------------------------------
+
+MIRSCR-1116_
+------------------------------
+
+MIRSCR-1143_
+------------------------------
+
+MIRSCR-1126_
+------------------------------
 
 
 
@@ -31,3 +43,9 @@
 .. |fail| image:: /images/youtube-fail.jpg
 
 ..	_MIRSCR-1114: https://mir24tv.atlassian.net/browse/MIRSCR-1105
+..	_MIRSCR-1114: https://mir24tv.atlassian.net/browse/MIRSCR-1139
+..	_MIRSCR-1114: https://mir24tv.atlassian.net/browse/MIRSCR-1131
+..	_MIRSCR-1114: https://mir24tv.atlassian.net/browse/MIRSCR-1134
+..	_MIRSCR-1114: https://mir24tv.atlassian.net/browse/MIRSCR-1135
+..	_MIRSCR-1114: https://mir24tv.atlassian.net/browse/MIRSCR-1116
+..	_MIRSCR-1114: https://mir24tv.atlassian.net/browse/MIRSCR-1143

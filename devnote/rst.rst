@@ -17,33 +17,30 @@ Hidden notes
 
    ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
+    <update_publication>`_
 
-*******************
-Page 1
-*******************
+l
+.. danger::
 
-Section 2
-==================
+   for fun ONLY!!
+   ``publication_``
+   ``.. _publication: ./../../index.html``
 
-Subsection 3
-------------------
-
-Subsubsection 4
-^^^^^^^^^^^^^^^^^^^^^^
-
-Paragraph 5
-""""""""""""""""""
-
-Paragraph 6
-~~~~~~~~~~~~~~~~~~
+map_
+uriup_
+basic_
+srrc_
+conf_
 
 
 
-|{project}|
---------------------
+.. _map: ./../mirmap.html
+.. _uriup: ./../../index.html
+.. _conf: ./../../conf.py
+.. _build: ./../../../bash-build/build-rtd-docs.bat
+.. _basic: _static\basic.css
+.. _srrc: _devnote\rst.rst.txt
 
-|{tnum}|
---------------------
 
 |{project}|-|{tnum}|
 --------------------
@@ -56,14 +53,28 @@ Paragraph 6
 
    |{project}|-|{tnum}|
    --------------------
-
    .. |{project}| replace:: MIRSCR
    .. |{tnum}| replace:: 839
 
 
-Regex
+.. code-block:: text
 
-```
+   <code>*******************
+   Page 1
+   *******************
+    Section 1
+    ==================
+    Subsection 2
+    ------------------
+    Subsubsection 3
+    ^^^^^^^^^^^^^^^^^^^^^^
+    Paragraph 4
+    """"""""""""""""""
+    Paragraph 5
+    ~~~~~~~~~~~~~~~~~~
 
-`MIRSCR-.*$
-```
+
+.. code-block:: text
+
+  Regex
+   MIRSCR-.*$

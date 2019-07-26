@@ -1,6 +1,14 @@
 
-:ref:`Баннер в Публикациях <update_publication>`
+Баннер в Публикациях
 ======================================================
+
+текс publication_
+
+Баннер в Публикациях
+
+.. _publication: ./../../../bash-build/build-rtd-docs.bat
+build-rtd-docs.bat
+<update_publication>
 
 .. warning::
 
