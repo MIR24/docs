@@ -57,14 +57,21 @@ map of site links
 
    //site
    https://mir24.tv/
+   //search
+   https://mir24.tv/news/search?
+
    https://mir24.tv/news/list/all
    https://mir24.tv/news/list/all/150/true
+
    https://mir24.tv/foto/service
    https://mir24.tv/foto/service/list/filter/all
+
    https://mir24.tv/video/service
    https://mir24.tv/video/service/list/filter/all
+
    https://mir24.tv/articles/service/
    https://mir24.tv/articles/service/list/filter/all
+
    https://mir24.tv/interaktiv/service
    https://mir24.tv/interaktiv/service/list/filter/all
 

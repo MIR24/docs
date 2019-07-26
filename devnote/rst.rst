@@ -6,21 +6,37 @@ Hidden notes
 	Скрытая страница для заметок и шаблонов по ReSt синтаксису.
 
 
-
 .. code-block:: text
 
-
    Баг. MIRSCR-0000_
-	 ----------------------
+   ----------------------
+   |sucss|
 
+   .. |sucss| image:: /images/youtube-sucss.jpg
+   .. |fail| image:: /images/youtube-fail.jpg
 
    ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
 
+*******************
+Page 1
+*******************
 
-   ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
-   ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
-   ..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-
+Section 2
+==================
+
+Subsection 3
+------------------
+
+Subsubsection 4
+^^^^^^^^^^^^^^^^^^^^^^
+
+Paragraph 5
+""""""""""""""""""
+
+Paragraph 6
+~~~~~~~~~~~~~~~~~~
+
 
 
 |{project}|
@@ -32,19 +48,12 @@ Hidden notes
 |{project}|-|{tnum}|
 --------------------
 
-
 .. |{project}| replace:: MIRSCR
 
 .. |{tnum}| replace:: 839
 
-
-
 .. code-block:: text
 
-   |{project}|
-   --------------------
-   |{tnum}|
-   --------------------
    |{project}|-|{tnum}|
    --------------------
 
@@ -52,8 +61,9 @@ Hidden notes
    .. |{tnum}| replace:: 839
 
 
+Regex
+
 ```
-:ref:`MIRSCR-1104 <https://mir24tv.atlassian.net/browse/MIRSCR-1104>`
 
 `MIRSCR-.*$
 ```
