@@ -19,7 +19,7 @@ Hidden notes
 
     <update_publication>`_
 
-l
+
 .. danger::
 
    for fun ONLY!!
