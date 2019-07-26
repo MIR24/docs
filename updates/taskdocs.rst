@@ -113,12 +113,12 @@
 
 описание функционала
 -------------------------
-|в поле "ID видео на YouTube" вставляется ссылка вида: ``HRzi8-xBJ9Q``.
-|Данная ссылка является ``ID-видео`` YouTube.
-|Находясь на странице просмотра видео на YouTube
-|ID-видео :code:`HRzi8-xBJ9Q` расположено после: :code:`/watch?v=`.
-|:code:`youtube.com/watch?v={ID-видео}`
-|:code:`youtube.com/watch?v=HRzi8-xBJ9Q`
+| в поле "ID видео на YouTube" вставляется ссылка вида:  | ``HRzi8-xBJ9Q``.
+| Данная ссылка является ``ID-видео`` YouTube.
+| Находясь на странице просмотра видео на YouTube
+| ID-видео :code:`HRzi8-xBJ9Q` расположено после: :code:`/watch?v=`.
+| :code:`youtube.com/watch?v={ID-видео}`
+| :code:`youtube.com/watch?v=HRzi8-xBJ9Q`
 
 
  * Добавлено поле "ID видео на YouTube":
