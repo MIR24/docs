@@ -1,8 +1,8 @@
 .. _update_publication:
 
-===============================================
-Публикация. Код zen.yandex перенесен в Баннер
-===============================================
+=======================================================
+Публикация. Код zen.yandex перенесен в Баннерное место
+=======================================================
 
 Баннерные места
 
@@ -19,20 +19,20 @@
 
 Данные флаги автоматически включают код:
 
-.. code-block:: html
+.. code-block:: HTML
 
    <p></p>
    <p></p>
    <a href="https://zen.yandex.ru/mir24tv" class="tads-menu" style="text-align: center; color: white;background-color: #84c452;display: inline-block;padding: 6px 10px;">ПОЗНАЙ ДЗЕН С НАМИ</a><a href="https://news.yandex.ru/index.html?from=rubric&amp;favid=3087" class="tads-menu" style="text-align: center; color: white;background-color: #08a463;display: inline-block;padding: 6px 10px;">ЧИТАЙ НАС В ЯНДЕКС.НОВОСТЯХ</a>
    </p>
 
+Код включает данный баннерный блок:
 
 .. image:: /images/doc_pubs_banner.jpg
    :width: 100 %
 
-В поле
+В поле текст, для включения 
 
-updates/publication.rst
 
 .. image:: /images/BannersInEndText.png
    :width: 100 %

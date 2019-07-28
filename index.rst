@@ -2,11 +2,14 @@
 Мир24. Документация
 **************************
 
-.. toctree::
-   :caption: Хот-фиксы
-   :maxdepth: 1
 
-   release/hotfix
+.. toctree::
+   :caption: Обновления
+   :maxdepth: 2
+   :numbered:
+
+   Обновления: <updates/taskdocs>
+
 
 .. toctree::
    :caption: Заметки по релизам
@@ -14,14 +17,9 @@
    :numbered:
    :glob:
 
+   release/hotfix
    release/notes/*
 
-.. toctree::
-   :caption: Обновления
-   :maxdepth: 2
-   :numbered:
-
-   updates/taskdocs
 
 
 .. toctree::
@@ -29,7 +27,6 @@
    :maxdepth: 2
 
    tikets
-
 
 
 .. toctree::

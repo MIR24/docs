@@ -63,7 +63,9 @@ MIRSCR-0000_
    Page 1
    *******************
     Section 1
-    ==================
+
+
+
     Subsection 2
     ------------------
     Subsubsection 3
