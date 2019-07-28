@@ -4,12 +4,10 @@
 
 
 .. toctree::
-   :caption: Обновления
-   :maxdepth: 2
-   :numbered:
+   :caption: Заметки по хотфиксам
+   :maxdepth: 1
 
-   Обновления: <updates/taskdocs>
-
+   release/hotfix
 
 .. toctree::
    :caption: Заметки по релизам
@@ -17,16 +15,30 @@
    :numbered:
    :glob:
 
-   release/hotfix
    release/notes/*
 
+.. toctree::
+   :caption: Обновления
+   :maxdepth: 1
+   :numbered:
+
+   Обновления: <updates/taskdocs>
 
 
 .. toctree::
-   :caption: Заметки вне релиза
-   :maxdepth: 2
+   :caption: Инструкции обновлений
+   :maxdepth: 3
 
-   tikets
+   updates/update_publication
+   updates/update_uploadfile
+
+
+..
+  .. toctree::
+     :caption: Заметки вне релиза
+     :maxdepth: 2
+
+     tikets
 
 
 .. toctree::
