@@ -1,6 +1,8 @@
-######################
-Список тикетов
-######################
+***********************************
+Список хотфиксов
+***********************************
+
+:abbr:`Хотфикс`
 
 .. contents:: Содержание
    :depth: 2
@@ -36,7 +38,7 @@
 
   Баг. MIRSCR-1134_
   ------------------------------------------
-  Админка. Сюжеты. Исправлена ошибка в работе пагинации. 
+  Админка. Сюжеты. Исправлена ошибка в работе пагинации.
 
 
 Баг. MIRSCR-1135_
@@ -56,8 +58,7 @@
 
 
 
-
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1134
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1135
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1131
-..	_MIRSCR-: https://mir24tv.atlassian.net/browse/MIRSCR-1020
+..	_MIRSCR-1134: https://mir24tv.atlassian.net/browse/MIRSCR-1134
+..	_MIRSCR-1135: https://mir24tv.atlassian.net/browse/MIRSCR-1135
+..	_MIRSCR-1131: https://mir24tv.atlassian.net/browse/MIRSCR-1131
+..	_MIRSCR-1020: https://mir24tv.atlassian.net/browse/MIRSCR-1020

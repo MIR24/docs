@@ -1,12 +1,16 @@
+*******************
 Hidden notes
-==============
+*******************
 
  .. note::
 
 	Скрытая страница для заметок и шаблонов по ReSt синтаксису.
 
-
+Шаблоны
+==========================
 .. code-block:: text
+
+   Релиз 0.21 (ST-979_) от 19.07.2019
 
    Баг. MIRSCR-0000_
    ----------------------
@@ -17,30 +21,24 @@ Hidden notes
 
    ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
-    <update_publication>`_
+update_publication_
 
+:menuselection:` task --> update_publication --> item`
 
-.. danger::
+Ссылки
+==================
 
-   for fun ONLY!!
-   ``publication_``
-   ``.. _publication: ./../../index.html``
+`api <https://docs.mir24.tv/api/v2/?format=api>`_
 
-map_
-uriup_
-basic_
-srrc_
-conf_
+note_
 
+MIRSCR-0000_
 
+.. _note: ./devnote/rst.html
+..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
-.. _map: ./../mirmap.html
-.. _uriup: ./../../index.html
-.. _conf: ./../../conf.py
-.. _build: ./../../../bash-build/build-rtd-docs.bat
-.. _basic: _static\basic.css
-.. _srrc: _devnote\rst.rst.txt
-
+Замена "replace"
+====================
 
 |{project}|-|{tnum}|
 --------------------
@@ -56,10 +54,12 @@ conf_
    .. |{project}| replace:: MIRSCR
    .. |{tnum}| replace:: 839
 
+Секции
+================
 
 .. code-block:: text
 
-   <code>*******************
+   *******************
    Page 1
    *******************
     Section 1
@@ -73,6 +73,26 @@ conf_
     Paragraph 5
     ~~~~~~~~~~~~~~~~~~
 
+
+.. danger::
+
+   for fun ONLY!!
+   ``publication_``
+   ``.. _publication: ./../../index.html``
+
+..
+  map_
+  uriup_
+  basic_
+  srrc_
+  conf_
+
+  .. _map: ./../mirmap.html
+  .. _uriup: ./../../index.html
+  .. _conf: ./../../conf.py
+  .. _build: ./../../../bash-build/build-rtd-docs.bat
+  .. _basic: _static\basic.css
+  .. _srrc: _devnote\rst.rst.txt
 
 .. code-block:: text
 

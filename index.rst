@@ -6,7 +6,7 @@
    :caption: Хот-фиксы
    :maxdepth: 1
 
-   hotfix
+   release/hotfix
 
 .. toctree::
    :caption: Заметки по релизам
@@ -14,16 +14,16 @@
    :numbered:
    :glob:
 
-   release-notes/*
+   release/notes/*
 
 .. toctree::
    :caption: Обновления
-   :maxdepth: 1
+   :maxdepth: 2
    :numbered:
-   
+
    updates/taskdocs
 
-   
+
 .. toctree::
    :caption: Заметки вне релиза
    :maxdepth: 2
