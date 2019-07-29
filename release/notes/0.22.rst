@@ -80,6 +80,7 @@
 Задача. OSA-91_
 --------------------
 Для релиза 0.22 настроено перенаправление запросов для панели управления мир24 (editors) следующим образом:
+
 * запросы с ``/ftb/`` идут в ``photobank-client/current/dist`` на ``index.html`` (статика);
 * запросы с ``/api/`` в ``backend-server/current/public`` на ``index.php`` (php);
 * запросы с ``/uploaded/`` в ``backend-server/current/public`` (статика);
