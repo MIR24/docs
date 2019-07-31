@@ -14,19 +14,19 @@
 Эпик. MIRSCR-1120_
 ------------------------------
 
-  MIRSCR-1121_
-  ------------------------------
-  получать статистику любой страницы по url за определенный период из google analytics
+MIRSCR-1121_
+------------------------------
+получать статистику любой страницы по url за определенный период из google analytics
 
-  MIRSCR-1122_
-  ------------------------------
-  создать модель статистики для хранения ответов от сервисов статистики
+MIRSCR-1122_
+------------------------------
+создать модель статистики для хранения ответов от сервисов статистики
 
 
-..	_MIRSCR-1131: https://mir24tv.atlassian.net/browse/MIRSCR-1120
-..	_MIRSCR-1134: https://mir24tv.atlassian.net/browse/MIRSCR-1121
-..	_MIRSCR-1135: https://mir24tv.atlassian.net/browse/MIRSCR-1122
-..	_MIRSCR-1116: https://mir24tv.atlassian.net/browse/MIRSCR-1123
-..	_MIRSCR-1143: https://mir24tv.atlassian.net/browse/MIRSCR-1124
-..  _MIRSCR-1126: https://mir24tv.atlassian.net/browse/MIRSCR-1125
+..	_MIRSCR-1120: https://mir24tv.atlassian.net/browse/MIRSCR-1120
+..	_MIRSCR-1121: https://mir24tv.atlassian.net/browse/MIRSCR-1121
+..	_MIRSCR-1122: https://mir24tv.atlassian.net/browse/MIRSCR-1122
+..	_MIRSCR-1123: https://mir24tv.atlassian.net/browse/MIRSCR-1123
+..	_MIRSCR-1124: https://mir24tv.atlassian.net/browse/MIRSCR-1124
+..  _MIRSCR-1125: https://mir24tv.atlassian.net/browse/MIRSCR-1125
 ..  _MIRSCR-1126: https://mir24tv.atlassian.net/browse/MIRSCR-1126
