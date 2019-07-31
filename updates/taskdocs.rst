@@ -147,3 +147,7 @@
 
 .. |sucss| image:: /images/youtube-sucss.jpg
 .. |fail| image:: /images/youtube-fail.jpg
+
+
+Статистика просмотров новостей в админке
+==========================================
