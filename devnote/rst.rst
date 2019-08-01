@@ -3,27 +3,26 @@ Hidden notes
 *******************
 
  .. note::
-
 	Скрытая страница для заметок и шаблонов по ReSt синтаксису.
 
 Шаблоны
 ==========================
 .. code-block:: text
 
-   Релиз 0.21 (ST-979_) от 19.07.2019
+   Релиз 0.00 (ST-979_) от 00.00.2019
 
    Баг. MIRSCR-0000_
    ----------------------
-   |sucss|
+   text
 
-   .. |sucss| image:: /images/youtube-sucss.jpg
-   .. |fail| image:: /images/youtube-fail.jpg
-
+   .. |img| image:: /images/youtube-sucss.jpg
    ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
-update_publication_
 
-:menuselection:` task --> update_publication --> item`
+
+
+
+:menuselection:` task --> update_publication`
 
 Ссылки
 ==================
@@ -84,13 +83,13 @@ MIRSCR-0000_
 
 ..
   map_
-  uriup_
+  index_
   basic_
   srrc_
   conf_
 
   .. _map: ./../mirmap.html
-  .. _uriup: ./../../index.html
+  .. _index: ./../../index.html
   .. _conf: ./../../conf.py
   .. _build: ./../../../bash-build/build-rtd-docs.bat
   .. _basic: _static\basic.css

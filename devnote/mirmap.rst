@@ -1,8 +1,25 @@
 map of site links
 ------------------
 
-.. code-block:: JSON
+.. container:: map-block
+
+|rawhtml|
+
+
+
+.. |rawhtml| raw:: html
+
+   <script>
+   console.console.log("hi")
+    </script>
+    <a href="./../../index.html">root/index.html</a>
+    <br>
+
+
+
+.. code-block:: html
    :linenos:
+
 
    //rss
    https://mir24.tv/rss/{название фида}/{id тега}
@@ -77,15 +94,9 @@ map of site links
 
 
 
-.. container:: imgscrops
 
-   https://imgtest.mir24.tv/uploaded/images/crops/2019/July/
-
-.
-```
-   //imgscrops
+..
    https://imgtest.mir24.tv/uploaded/images/crops/2019/July/ 200x106_8x212_list_crop_4cdc3004de1d27ce2ea51757a195acb736e872a4a406b1d441da7e652a37a879.jpg
    200x106_
    8x212_
    list_crop_4cdc3004de1d27ce2ea51757a195acb736e872a4a406b1d441da7e652a37a879.jpg
-```
