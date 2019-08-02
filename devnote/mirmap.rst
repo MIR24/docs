@@ -6,7 +6,6 @@ map of site links
 |rawhtml|
 
 
-
 .. |rawhtml| raw:: html
 
    <script>

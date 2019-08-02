@@ -34,6 +34,11 @@
 
 ..
 
+  История. MIRSCR-908_
+  ------------------------------------------
+  RSS. Исключена передача фотографий "ТАСС" из рассылки mir24.tv/export/wifi.rss
+   
+
   Баг. MIRSCR-1134_
   ------------------------------------------
   Админка. Сюжеты. Исправлена ошибка в работе пагинации.
@@ -58,6 +63,7 @@
 
 
 
+..	_MIRSCR-908: https://mir24tv.atlassian.net/browse/MIRSCR-908
 ..	_MIRSCR-1134: https://mir24tv.atlassian.net/browse/MIRSCR-1134
 ..	_MIRSCR-1135: https://mir24tv.atlassian.net/browse/MIRSCR-1135
 ..	_MIRSCR-1131: https://mir24tv.atlassian.net/browse/MIRSCR-1131
