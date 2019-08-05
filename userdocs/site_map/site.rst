@@ -7,6 +7,6 @@
    :maxdepth: 3
 
    lists
+   rss/index
    front/mobile/mobile
    front/mobile/page
-   rss/index

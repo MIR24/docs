@@ -21,51 +21,80 @@ Hidden notes
 
 
 
-
-:menuselection:`task --> update_publication`
-
-:menuselection:`menu item --> submenu item`
-
 Ссылки
 ==================
 
 `api <https://docs.mir24.tv/api/v2/?format=api>`_
 
+MIRSCR-0000_
 note_
 
-MIRSCR-0000_
-
-.. _note: ./devnote/rst.html
+.. _note: /
 ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
+
+
 
 Замена "replace"
 ====================
 
 |{project}|-|{tnum}|
---------------------
+|rawhtml|
 
 .. |{project}| replace:: MIRSCR
-
 .. |{tnum}| replace:: 839
+.. |rawhtml| raw:: html
 
-.. code-block:: text
+   <script>
+   console.console.log("hi")
+    </script>
+    <a href="_sources/devnote/rst.rst.txt">View page source</a>
+    <br>
+
+.. code-block:: ReSt
 
    |{project}|-|{tnum}|
    --------------------
+   |rawhtml|
    .. |{project}| replace:: MIRSCR
    .. |{tnum}| replace:: 839
+   .. |rawhtml| raw:: html
+      <script>console.console.log("hi")
+       </script>
+       <a href="_sources/devnote/rst.rst.txt">View page source</a>
+       <br>
+
+
+Контейнер container
+====================
+.. container:: page-screen
+
+   |form|
+
+
+
+
+.. |form| replace::
+   |fig|
+   |fig1|
+
+.. |fig| image:: /images/admin/input-pub/news/form0.png
+.. |fig1| image:: /images/admin/input-pub/news/form1.png
+
+
+
+
+
 
 Секции
 ================
 
-.. code-block:: text
+.. code-block:: rst
 
    *******************
    Page 1
    *******************
     Section 1
-
-
+    ============
 
     Subsection 2
     ------------------
@@ -77,11 +106,6 @@ MIRSCR-0000_
     ~~~~~~~~~~~~~~~~~~
 
 
-.. danger::
-
-   For hard fun and customing
-   ``publication_``
-   ``.. _publication: ./../../index.html``
 
 ..
   map_
@@ -97,14 +121,6 @@ MIRSCR-0000_
   .. _basic: _static\basic.css
   .. _srrc: _devnote\rst.rst.txt
 
-
-.. |rawhtml| raw:: html
-
-   <script>
-   console.console.log("hi")
-    </script>
-    <a href="./../../index.html">root/index.html</a>
-    <br>
 
 .. code-block:: text
 

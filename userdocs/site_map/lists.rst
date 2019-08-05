@@ -1,6 +1,42 @@
-**************************
+===============
+Публикации
+===============
+
+Представление публикаций
+----------------------------
+
+https://mir24.tv/{Сервисный тег}/{Список публикаций}/{Фильтр}
+
+.. list-table:: Публикации
+
+    * - Название
+      - /{Сервисный тег}
+      - /{Сервисный тег}/{Список публикаций}
+      - /{Сервисный тег}/{Список публикаций}/{Фильтр}
+    * - Новости
+      - {Список публикаций}
+      - /news/list/all
+      - ``-``
+    * - Фото
+      - /foto/service
+      - /foto/service/list/all
+      - /foto/service/list/filter/all
+    * - Видео
+      - /video/service
+      - /video/service/list/all
+      - /video/service/list/filter/all
+    * - Статьи
+      - /articles/service
+      - /articles/service/list/all
+      - /articles/service/list/filter/all
+    * - Тесты
+      - /interaktiv/service
+      - /interaktiv/service/list/all
+      - /interaktiv/service/list/filter/all
+
+
 Списки публикаций
-**************************
+-------------------
 
 Список - представление коллекции публикаций в виде горизонтально растянутых блоков, содержащих изображение, заголовок, анонс,время публикации и супертег с возможностью дозагрузки.
 
@@ -24,20 +60,3 @@
 
 .. image:: /images/front/news-list-advert.png
    :width: 100 %
-
-
-.. list-table:: title
-
-    * - Название
-      - /{тип публикации}
-    * - https://mir24.tv/
-    * - https://mir24.tv/news/list/all
-    * - https://mir24.tv/news/list/all/150/true
-    * - https://mir24.tv/foto/service
-    * - https://mir24.tv/foto/service/list/filter/all
-    * - https://mir24.tv/video/service
-    * - https://mir24.tv/video/service/list/filter/all
-    * - https://mir24.tv/articles/service/
-    * - https://mir24.tv/articles/service/list/filter/all
-    * - https://mir24.tv/interaktiv/service
-    * - https://mir24.tv/interaktiv/service/list/filter/all

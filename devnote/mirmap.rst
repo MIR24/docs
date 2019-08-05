@@ -3,19 +3,6 @@ map of site links
 
 .. container:: map-block
 
-|rawhtml|
-
-
-.. |rawhtml| raw:: html
-
-   <script>
-   console.console.log("hi")
-    </script>
-    <a href="./../../index.html">root/index.html</a>
-    <br>
-
-
-
 .. code-block:: html
    :linenos:
 
