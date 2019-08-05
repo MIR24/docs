@@ -7,7 +7,7 @@ Hidden notes
 
 Шаблоны
 ==========================
-.. code-block:: text
+.. code-block:: rst
 
    Релиз 0.00 (ST-979_) от 00.00.2019
 
@@ -22,7 +22,9 @@ Hidden notes
 
 
 
-:menuselection:` task --> update_publication`
+:menuselection:`task --> update_publication`
+
+:menuselection:`menu item --> submenu item`
 
 Ссылки
 ==================
@@ -77,7 +79,7 @@ MIRSCR-0000_
 
 .. danger::
 
-   for fun ONLY!!
+   For hard fun and customing
    ``publication_``
    ``.. _publication: ./../../index.html``
 
@@ -94,6 +96,15 @@ MIRSCR-0000_
   .. _build: ./../../../bash-build/build-rtd-docs.bat
   .. _basic: _static\basic.css
   .. _srrc: _devnote\rst.rst.txt
+
+
+.. |rawhtml| raw:: html
+
+   <script>
+   console.console.log("hi")
+    </script>
+    <a href="./../../index.html">root/index.html</a>
+    <br>
 
 .. code-block:: text
 
