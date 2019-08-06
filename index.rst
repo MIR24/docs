@@ -26,7 +26,7 @@
 
 
 .. toctree::
-   :caption: Инструкции обновлений
+   :caption: Документация по обновлениям
    :maxdepth: 3
 
    updates/update_publication

@@ -1,6 +1,6 @@
-**************************
+=====================
 Оглавление
-**************************
+=====================
 
 Описание интерфейсов
 
@@ -17,7 +17,7 @@
    :caption: Административный
    :maxdepth: 3
 
-   site_admin/main
+   .. site_admin/main
    site_admin/image_edit/index
    site_admin/incuts/index
    site_admin/prog_attach/index

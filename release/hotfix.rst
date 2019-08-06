@@ -32,12 +32,39 @@
 Структурные элементы сайта. Футер. В линии "Мы на связи" сайта изменена телеграм-ссылка с https://t.me/mir24tv на https://t.me/nachalos
 
 
+
+История. MIRSCR-908_ (В работе)
+------------------------------------------
+RSS. Фид wifi.rss. Передача фотографий источника "ТАСС" исключена из рассылки в wifi.rss_
+
+В список исключений из rss-фида {wifi.rss_} добавлен источник ТАСС:
+
+.. code-block:: json
+
+   { ...
+     "id":41,
+     "link": "http://www.itar-tass.com",
+     "type": "photo",
+     "origin": "ТАСС",
+     "priority": 29109,
+     ... },
+   { ...
+     "id":2,
+     "link": "http://tass.ru/",
+     "type": "text",
+     "origin": "ТАСС",
+     "priority": 1300,
+     ... }
+
+Из рассылки исключены изображения "Копирайт" которых содержит данные ``id``. Исключения определены в ``.env.example`` и содержит id копирайтов:
+
+.. code-block:: php
+
+   COPYRIGHTS_EXCLUDE=2,41
+
+
+
 ..
-  История. MIRSCR-908_
-  ------------------------------------------
-  RSS. Исключена передача фотографий "ТАСС" из рассылки mir24.tv/export/wifi.rss
-
-
   Баг. MIRSCR-1134_
   ------------------------------------------
   Админка. Сюжеты. Исправлена ошибка в работе пагинации.
@@ -61,7 +88,7 @@
 
 
 
-
+..  _wifi.rss: https://mir24.tv/export/wifi.rss
 ..	_MIRSCR-908: https://mir24tv.atlassian.net/browse/MIRSCR-908
 ..	_MIRSCR-1134: https://mir24tv.atlassian.net/browse/MIRSCR-1134
 ..	_MIRSCR-1135: https://mir24tv.atlassian.net/browse/MIRSCR-1135
