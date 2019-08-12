@@ -77,8 +77,8 @@ note_
    |fig|
    |fig1|
 
-.. |fig| image:: /images/admin/input-pub/news/form0.png
-.. |fig1| image:: /images/admin/input-pub/news/form1.png
+.. |fig| image:: /images/admin/edit_form/form0.png
+.. |fig1| image:: /images/admin/edit_form/form1.png
 
 
 

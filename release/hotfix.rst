@@ -65,12 +65,8 @@ RSS. Фид wifi.rss. Передача фотографий источника "
 
 
 
-Баг MIRSCR-1146_ (В работе)
+Баг. MIRSCR-1146_
 ------------------------------------------
-.. note::
-
-  В работе
-
 Yandex Turbo. RSS yandex_ Исправлена ошибка отображения видео/фото в турбо-страницах.
 
 Исправлена ошибка, при которой видео/фото из оригинала публикации не отображалось в турбо странице. Публикуемый медиа-контент в турбо странице, расположенный внутри ``<figure>`` перенесен выше тега ``<header>``.
@@ -91,10 +87,30 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 
 .. _яндекса: yandex_
 .. _yandex: https://mir24.tv/export/yandex.rss
-..
-  Баг. MIRSCR-1134_
-  ------------------------------------------
-  Админка. Сюжеты. Исправлена ошибка в работе пагинации.
+
+
+
+История. MIRSCR-1160_
+------------------------------------------
+.. note::
+
+   В работе
+
+|RSS. Фид wifi.rss. Произведена стандартизация фида wifi.rss_, согласно требованиям и новым правилам.
+|Реализованы изменения в правилах формирования RSS фида wifi.rss_. 
+
+
+
+
+
+История. MIRSCR-1172_
+------------------------------------------
+.. note::
+
+   В работе
+
+RSS. Фид wifi.rss. Добавлена подпись к фотографиям в рассылке wifi.rss_.
+
 
 
 ..
@@ -113,11 +129,11 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 
 
 
-
+..	_MIRSCR-1172: https://mir24tv.atlassian.net/browse/MIRSCR-1172
 ..	_MIRSCR-1146: https://mir24tv.atlassian.net/browse/MIRSCR-1146
 ..  _wifi.rss: https://mir24.tv/export/wifi.rss
 ..	_MIRSCR-908: https://mir24tv.atlassian.net/browse/MIRSCR-908
-..	_MIRSCR-1134: https://mir24tv.atlassian.net/browse/MIRSCR-1134
+..	_MIRSCR-1160: https://mir24tv.atlassian.net/browse/MIRSCR-1160
 ..	_MIRSCR-1135: https://mir24tv.atlassian.net/browse/MIRSCR-1135
 ..	_MIRSCR-1131: https://mir24tv.atlassian.net/browse/MIRSCR-1131
 ..	_MIRSCR-1020: https://mir24tv.atlassian.net/browse/MIRSCR-1020
