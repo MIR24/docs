@@ -54,11 +54,6 @@
    :caption: Прочее
    :maxdepth: 3
 
-   userdocs/site_view/front/mobile/mobile
-   userdocs/site_view/front/mobile/page
-   userdocs/site_view/front/rss/index
-   userdocs/site_view/front/lists
-
    tags/index
    tags/simple/index
    tags/super/index

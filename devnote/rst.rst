@@ -63,6 +63,18 @@ note_
        <a href="_sources/devnote/rst.rst.txt">View page source</a>
        <br>
 
+Таблицы
+====================
+
+.. csv-table:: Statistic
+   :header: "Response Data", type
+   :widths: 30, 30
+
+   "ID записи", "(uint8,autoincrement)"
+   "entity_id", "( = entity_id news table)"
+
+
+
 
 Контейнер container
 ====================
@@ -79,10 +91,6 @@ note_
 
 .. |fig| image:: /images/admin/edit_form/form0.png
 .. |fig1| image:: /images/admin/edit_form/form1.png
-
-
-
-
 
 
 Секции

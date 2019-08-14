@@ -31,13 +31,50 @@
 
 Исправлена ошибка, при которой в модальном окне "Добавить новость/статью" в поле "Поиск", не осуществлялся поиск публикации по полному наименованию.
 
+История. MIRSCR-1160_
+------------------------------------------
+.. note::
+
+   В работе
+
+RSS. Фид wifi.rss. Произведена стандартизация фида wifi.rss_, согласно требованиям и новым правилам.
+
+Реализованы изменения в правилах формирования RSS фида wifi.rss_.
+
 Эпик. MIRSCR-1120_
 ------------------------------
-Админка. Статистика просмотров новостей
+Админка. Google Аналитика. Статистика просмотров. Реализован отчет о статистике просмотров по отдельным новостям, доступный в меню админки: ?НАЗВАНИЕ-ПУНКТА?.
+
+Статистика просмотров новостей google analytics.
+
+Модель хранения ответов от сервисов статистики
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
+.. line-block::
+
+ Полученные от Google результаты необходимо сохранять в таблицу.
+ Структура таблицы:
+
+.. csv-table:: Statistic
+   :header: "Response Data", type
+   :widths: 30, 30
+
+   "ID записи", "(uint8,autoincrement)"
+   "entity_id", "( = entity_id news table)"
+   "url", "(нужно для быстрого поиска по url)"
+   "from_datetime", "(timestamp)"
+   "unique_views", "(uint8)"
+   "total_views", "(uint8)"
+   "complete", "(true,false)"
+
+
+*Флаг complite ставится когда был запрос статистики за прошедший период, а значит он не может уже измениться.*
 
 
 
 
+..  _wifi.rss: https://mir24.tv/export/wifi.rss
+..	_MIRSCR-1160: https://mir24tv.atlassian.net/browse/MIRSCR-1160
 ..	_MIRSCR-1056: https://mir24tv.atlassian.net/browse/MIRSCR-1056
 ..	_MIRSCR-1093: https://mir24tv.atlassian.net/browse/MIRSCR-1093
 ..	_MIRSCR-1109: https://mir24tv.atlassian.net/browse/MIRSCR-1109
@@ -46,5 +83,4 @@
 ..	_MIRSCR-1122: https://mir24tv.atlassian.net/browse/MIRSCR-1122
 ..	_MIRSCR-1123: https://mir24tv.atlassian.net/browse/MIRSCR-1123
 ..	_MIRSCR-1124: https://mir24tv.atlassian.net/browse/MIRSCR-1124
-..  _MIRSCR-1125: https://mir24tv.atlassian.net/browse/MIRSCR-1125
 ..  _MIRSCR-1126: https://mir24tv.atlassian.net/browse/MIRSCR-1126
