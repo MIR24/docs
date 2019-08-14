@@ -5,11 +5,24 @@
 Типы тегов
 ==========
 
+.. toctree::
+   :maxdepth: 1
+   :numbered:
+
+   simple
+   super
+
+
+
 1. :ref:`Супер <tags-super>`
 2. Гео
 3. :ref:`Обычные <tags-simple>`
 4. Промо
 5. Сервисные
+
+s_
+
+.. _s: <simple>
 
 Создание
 ==========

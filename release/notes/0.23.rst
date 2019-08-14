@@ -31,6 +31,12 @@
 
 Исправлена ошибка, при которой в модальном окне "Добавить новость/статью" в поле "Поиск", не осуществлялся поиск публикации по полному наименованию.
 
+
+Баг. MIRSCR-1163_
+------------------------------
+
+
+
 История. MIRSCR-1160_
 ------------------------------------------
 .. note::
@@ -81,6 +87,4 @@ RSS. Фид wifi.rss. Произведена стандартизация фид
 ..	_MIRSCR-1120: https://mir24tv.atlassian.net/browse/MIRSCR-1120
 ..	_MIRSCR-1121: https://mir24tv.atlassian.net/browse/MIRSCR-1121
 ..	_MIRSCR-1122: https://mir24tv.atlassian.net/browse/MIRSCR-1122
-..	_MIRSCR-1123: https://mir24tv.atlassian.net/browse/MIRSCR-1123
-..	_MIRSCR-1124: https://mir24tv.atlassian.net/browse/MIRSCR-1124
-..  _MIRSCR-1126: https://mir24tv.atlassian.net/browse/MIRSCR-1126
+..	_MIRSCR-1163: https://mir24tv.atlassian.net/browse/MIRSCR-1163

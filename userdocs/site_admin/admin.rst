@@ -17,14 +17,13 @@
 
 
 .. toctree::
+   :caption: Оглавление
    :maxdepth: 3
 
    image_edit/index
    incuts/index
    prog_attach/index
    tags/index
-   tags/simple/index
-   tags/super/index
    cache/index
 
 
