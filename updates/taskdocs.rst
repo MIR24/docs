@@ -162,16 +162,24 @@ ____
 | Файл с aouth данными, хранится по ссылке: - Mir24tv-5775418f0ca5.json_;
 | Google view id: account-explorer_;
 | GA_MEASUREMENT_ID – на идентификатор отслеживания ресурса Google Аналитики.
+|
 
 .. _Mir24tv-5775418f0ca5.json: https://mir24tv.atlassian.net/secure/attachment/25210/Mir24tv-5775418f0ca5.json
 .. _account-explorer: https://ga-dev-tools.appspot.com/account-explorer/
-|
-Реализованный отчет о статистике просмотров по отдельным новостям, расположен в меню админки по кнопке: "Google аналитика".
 
 .. image:: /images/admin/analytics-stat.jpg
    :width: 30 %
-   :align: center
+   :align: left
 
+|
+Реализованный отчет о статистике просмотров расположен в меню админки по кнопке: "Google аналитика".
+
+|
+|
+|
+|
+|
+|
 
 Описание функционала
 -------------------------

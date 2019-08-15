@@ -6,6 +6,10 @@
 
 .. _ST-984: https://mir24tv.atlassian.net/browse/ST-984
 
+ .. note::
+
+    В работе
+
 Баг. MIRSCR-1056_
 ------------------------------
 Исправлена ошибка, при которой не срабатывает скрипт медиатора на первой публикации.
@@ -28,26 +32,41 @@
 Баг. MIRSCR-1163_
 ------------------------------
 
+MIRSCR-1160_
+--------------------
+
+MIRSCR-1161_
+--------------------
+
+MIRSCR-1079_
+--------------------
+
+MIRSCR-753_
+--------------------
+
+MIRSCR-902_
+--------------------
 
 ..
+ MIRSCR-902
+
  История. MIRSCR-1160_
  ------------------------------------------
- .. note::
 
-    В работе
 
  RSS. Фид wifi.rss. Произведена стандартизация фида wifi.rss_,  согласно требованиям и новым правилам.
 
  Реализованы изменения в правилах формирования RSS фида wifi.rss_.
 
 
-MIRSCR-1163 MIRSCR-902 MIRSCR-1093 MIRSCR-1109 MIRSCR-1056 MIRSCR-753 MIRSCR-1160 MIRSCR-1079 MIRSCR-1161
+
 ..  _wifi.rss: https://mir24.tv/export/wifi.rss
 ..	_MIRSCR-1160: https://mir24tv.atlassian.net/browse/MIRSCR-1160
 ..	_MIRSCR-1056: https://mir24tv.atlassian.net/browse/MIRSCR-1056
 ..	_MIRSCR-1093: https://mir24tv.atlassian.net/browse/MIRSCR-1093
 ..	_MIRSCR-1109: https://mir24tv.atlassian.net/browse/MIRSCR-1109
-..	_MIRSCR-1120: https://mir24tv.atlassian.net/browse/MIRSCR-1120
-..	_MIRSCR-1121: https://mir24tv.atlassian.net/browse/MIRSCR-1121
-..	_MIRSCR-1122: https://mir24tv.atlassian.net/browse/MIRSCR-1122
 ..	_MIRSCR-1163: https://mir24tv.atlassian.net/browse/MIRSCR-1163
+..	_MIRSCR-1161: https://mir24tv.atlassian.net/browse/MIRSCR-1161
+..	_MIRSCR-1079: https://mir24tv.atlassian.net/browse/MIRSCR-1079
+..	_MIRSCR-753: https://mir24tv.atlassian.net/browse/MIRSCR-753
+..	_MIRSCR-902: https://mir24tv.atlassian.net/browse/MIRSCR-902
