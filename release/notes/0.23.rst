@@ -69,3 +69,5 @@
  * Если статистика отсутствует и она за **текущий** период, то необходимо выполняется запрос от Google.API и сохраняется с флагом complete = ``false``.
 
 .. |ga| replace:: :ref:`Статистика просмотров новостей в админке <google-analytics>`
+
+..	_MIRSCR-1122: https://mir24tv.atlassian.net/browse/MIRSCR-1120
