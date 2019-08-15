@@ -41,28 +41,16 @@
      tikets
 
 
-.. compound::
-
-   :ref:`Оглавление <doc-contents>`
-
-   Руководство пользователя
-   Оглавление ::
-
-     глав1
-
-   конц
-
 .. toctree::
-   :caption: Документация_
+   :caption: Документация
    :maxdepth: 3
 
-   userdocs/site_view/site
-   userdocs/site_admin/admin
+   userdocs/index
+   .. userdocs/site_view/site
+   .. userdocs/site_admin/admin
 
 
 ..
   .. toctree::
    :caption: Прочее
    :maxdepth: 3
-
-.. _Документация: :ref:`<doc-contents>`
