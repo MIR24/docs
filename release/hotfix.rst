@@ -124,6 +124,11 @@ RSS. Фид wifi.rss. Добавлена подпись к фотография�
    <a href="http://www.liveinternet.ru/click" target=_blank><img src="//counter.yadro.ru/hit?t44.6;r" border='0' width='31' height='31'>
    </a>
 
+
+
+___
+
+
 ..
 
   https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod2.html?source=//video.platformcraft.ru/vod/5d5270180e47cf09a747e4d4/playlist.m3u8&poster=https://dev9.mir24.tv/demo-files/shape-10-870x489.jpg&tag=//moevideo.biz/vast?ref=mir24.tv&impressionAfterPaid=1&referrer=https%3A%2F%2Fmir24.tv&youtubesource=RzSPKlBE5iM&youtubechangedate=2019-08-14
