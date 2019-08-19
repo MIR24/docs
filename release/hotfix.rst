@@ -109,6 +109,22 @@ RSS. Фид wifi.rss. Добавлена подпись к фотография�
    В работе
 
 
+
+
+
+
+Баг. MIRSCR-1196_
+-------------------------------------------
+Сайт. Мобильная версия. Счетчик LiveInternet_.
+
+Исправлено отображение счетчика счётчика посещаемости в футоре ``mobile/footer.blade.php``
+
+Счетчик:
+
+.. code-block:: HTML
+
+   <a href='http://www.liveinternet.ru/click' "+"target=_blank><img src='//counter.yadro.ru/hit?t44.6;r' "border='0' width='31' height='31'></a>
+
 ..
   https://dev9.mir24.tv/news/16373487/test-1130
 
@@ -121,8 +137,8 @@ RSS. Фид wifi.rss. Добавлена подпись к фотография�
   Баг. MIRSCR-1020_
   ------------------------------------------
 
-
-
+..  _LiveInternet: https://www.liveinternet.ru/
+..	_MIRSCR-1196: https://mir24tv.atlassian.net/browse/MIRSCR-1196
 ..	_MIRSCR-1172: https://mir24tv.atlassian.net/browse/MIRSCR-1172
 ..	_MIRSCR-1146: https://mir24tv.atlassian.net/browse/MIRSCR-1146
 ..  _wifi.rss: https://mir24.tv/export/wifi.rss
