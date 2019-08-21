@@ -6,6 +6,8 @@
 
 .. _ST-984: https://mir24tv.atlassian.net/browse/ST-984
 
+.. contents:: Содержание
+   :depth: 2
 
 Задача. MIRSCR-1194_
 -----------------------------
