@@ -141,8 +141,10 @@ RSS. Фид wifi.rss. Из рассылки удалена информация 
 | Пример запроса данного динамического плеера:
 | https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod2.html?source=//
 | video.platformcraft.ru/vod/5b71a3f90e47cf1673a1593c/playlist.m3u8&poster=https://
-| imgtest.mir24.tv/uploaded/images/crops/2018/August/870x489_0x103_detail_crop_c8e44f83847eafc990f50dfdf25d6f9c65fd3af2c4e8f053f854a863fd854f5a.jpg&tag=
-| //moevideo.biz/vast?ref=mir24.tv&impressionAfterPaid=1&youtubechangedate=
+| imgtest.mir24.tv/uploaded/images/crops/2018/August/
+| 870x489_0x103_detail_crop
+| _c8e44f83847eafc990f50dfdf25d6f9c65fd3af2c4e8f053f854a863fd854f5a.jpg
+| &tag=//moevideo.biz/vast?ref=mir24.tv&impressionAfterPaid=1&youtubechangedate=
 | 2019-07-12T00:00:00Z&youtubesource=HRzi8-xBJ9Q
 
 
