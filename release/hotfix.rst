@@ -102,7 +102,6 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
    <a href="http://www.liveinternet.ru/click" target=_blank><img src="//counter.yadro.ru/hit?t44.6;r" border='0' width='31' height='31'>
    </a>
 
-|
 
 Баг. MIRSCR-1202_
 -------------------------------------------
@@ -124,6 +123,26 @@ RSS. Фид wifi.rss. Из рассылки удалена информация 
 
 
 |
+
+История. MIRSCR-1130_
+------------------------------------------
+Сайт. Плеер ``playercdn``. Изменена генерация плеера, позволяя проигрывать ролики YouTube внутри плеера ``playercdn.cdnvideo.ru``.
+
+Подготовлен новый динамический плеер, с помощью которого можно проигрывать ролики YouTube. Если есть ссылка на YouTube, то после публикации генерируется плеер по описанию ниже. *Время отмены показа YouTube одни сутки с момента публикации новости.*
+
+Базовая ссылка: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod2.html.
+
+Query string параметры те же, что у стандартного плеера ``mirtv_player_vod1.html``, плюс два новых:
+| ``youtubechangedate`` - дата и время, по наступлению которых необходимо отображать стандартный плеер ``CDNvideo`` (например: ``youtubechangedate=2019-07-15T00:00:00Z``);
+| ``youtubesource`` - id ролика в YouTube (например: ``youtubesource=rPf6y-csIKs``).
+
+| Пример запроса данного динамического плеера:
+| https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod2.html?source=//video.platformcraft.ru/vod/5b71a3f90e47cf1673a1593c/playlist.m3u8&poster=https://imgtest.mir24.tv/uploaded/images/crops/2018/August/870x489_0x103_detail_crop_c8e44f83847eafc990f50dfdf25d6f9c65fd3af2c4e8f053f854a863fd854f5a.jpg&tag=//moevideo.biz/vast?ref=mir24.tv&impressionAfterPaid=1&youtubechangedate=2019-07-12T00:00:00Z&youtubesource=HRzi8-xBJ9Q
+
+
+
+
+
 
 ..	_MIRSCR-1202: https://mir24tv.atlassian.net/browse/MIRSCR-1202
 ..  _LiveInternet: https://www.liveinternet.ru/
