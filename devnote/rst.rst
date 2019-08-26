@@ -44,9 +44,6 @@ note_
 .. |{tnum}| replace:: 839
 .. |rawhtml| raw:: html
 
-   <script>
-   console.console.log("hi")
-    </script>
     <a href="_sources/devnote/rst.rst.txt">View page source</a>
     <br>
 
@@ -58,15 +55,14 @@ note_
    .. |{project}| replace:: MIRSCR
    .. |{tnum}| replace:: 839
    .. |rawhtml| raw:: html
-      <script>console.console.log("hi")
-       </script>
+
        <a href="_sources/devnote/rst.rst.txt">View page source</a>
        <br>
 
 Таблицы
 ====================
 
-.. csv-table:: Statistic
+.. csv-table:: csv
    :header: "Response Data", type
    :widths: 30, 30
 

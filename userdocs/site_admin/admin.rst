@@ -25,6 +25,7 @@
    prog_attach/index
    tags/index
    cache/index
+   content/create
 
 
 
