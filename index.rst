@@ -31,6 +31,7 @@
 
    updates/update_publication
    updates/update_uploadfile
+   updates/update_youtube
 
 
 ..
