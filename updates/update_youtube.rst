@@ -44,10 +44,8 @@
 
  * Новости
  * Видео
- * Фотоленты
  * Статьи
  * Интерактив
- * Лица Мира
  * Пресс-релизы
 
 .. image:: /images/admin/youtube.jpg
@@ -73,6 +71,7 @@
 
 .. image:: /images/admin/cdn-on-site.jpg
 
-
+З
+------------------
 
 .. |upld| image:: /images/admin/edit_form/uploadvideo.jpg
