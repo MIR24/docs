@@ -52,7 +52,15 @@
 
 .. image:: /images/admin/youtube.jpg
 
-При указании id видео youtube в поле "ID видео на YouTube", генерируется плеер ``CDNvideo`` показанный на примере ниже:
+Описание полей:
+
+ * Код для вставки - Генерируется при указании "ID видео на YouTube" и Загрузке файла с видео;
+ * Удалить видео через 24 ч. - Чекбокс для указания признака удаления видео;
+ * ID видео на YouTube - поле для указания ID-видео YouTube, с валидацией
+ * Время отмены показа YouTube - дата и время по наступлению которого youtube видео заменяется на загруженное локально
+ * |upld| - Загрузить локальный файл с видео
+
+При указании id видео youtube в поле "ID видео на YouTube", генерируется плеер ``CDNvideo`` с кодом вставки, показанный на примере ниже:
 
 .. code-block:: html
 
@@ -61,19 +69,10 @@
    playlist.m3u8" frameborder="0" width="100%" height="100%" scrolling="no"
    style="overflow:hidden;" allowfullscreen></iframe>
 
-Код вставки видео добавится перед текстом публикации.
+Видео добавится перед текстом публикации.
 
 .. image:: /images/admin/cdn-on-site.jpg
 
-Описание полей:
-
- * Код для вставки
- * Удалить видео через 24 ч.
- * ID видео на YouTube
- * Время отмены показа YouTube
- * |sucss|
 
 
-
-
-.. |sucss| image:: /images/admin/edit_form/uploadvideo.jpg
+.. |upld| image:: /images/admin/edit_form/uploadvideo.jpg
