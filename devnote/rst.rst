@@ -7,6 +7,10 @@ Hidden notes
 
 Шаблоны
 ==========================
+
+.. image:: /images/front/news-list-example.png
+   :width: 100 %
+
 .. code-block:: rst
 
    Релиз 0.00 (ST-979_) от 00.00.2019
@@ -18,18 +22,13 @@ Hidden notes
    .. |img| image:: /images/youtube-sucss.jpg
    ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
-
-
-
 Ссылки
 ==================
 
 `api <https://docs.mir24.tv/api/v2/?format=api>`_
 
 MIRSCR-0000_
-note_
 
-.. _note: /
 ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
 
 
