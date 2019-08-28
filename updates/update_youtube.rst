@@ -71,7 +71,22 @@
 
 .. image:: /images/admin/cdn-on-site.jpg
 
-З
+.. |upld| image:: /images/admin/edit_form/uploadvideo.jpg
+
+Загрузка видео
 ------------------
 
-.. |upld| image:: /images/admin/edit_form/uploadvideo.jpg
+1
+~~~~~~~~~~~~~~~~~
+
+.. image:: /images/admin/edit_form/uploadvideo2.jpg
+
+2
+~~~~~~~~~~~~~~~~~
+.. image:: /images/admin/edit_form/uploadvideo3.jpg
+
+3
+~~~~~~~~~~~~~~~~~
+.. image:: /images/admin/edit_form/uploadvideo4.jpg
+
+.. image:: /images/youtube-cd.jpg
