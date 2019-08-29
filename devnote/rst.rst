@@ -8,8 +8,9 @@ Hidden notes
 Шаблоны
 ==========================
 
-.. image:: /images/front/news-list-example.png
-   :width: 100 %
+.. image:: /images/admin/edit_form/uploadvideo3.jpg
+   :width: 60 %
+   :all
 
 .. code-block:: rst
 

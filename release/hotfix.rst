@@ -119,4 +119,3 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 ..	_MIRSCR-908: https://mir24tv.atlassian.net/browse/MIRSCR-908
 ..	_MIRSCR-1130: https://mir24tv.atlassian.net/browse/MIRSCR-1130
 ..	_MIRSCR-1131: https://mir24tv.atlassian.net/browse/MIRSCR-1131
-..	_MIRSCR-1020: https://mir24tv.atlassian.net/browse/MIRSCR-1020
