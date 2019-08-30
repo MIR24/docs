@@ -19,12 +19,13 @@
    :caption: Оглавление
    :maxdepth: 3
 
+   content/create
    image_edit/index
    incuts/index
    prog_attach/index
    tags/index
    cache/index
-   content/create
+
 
 
 
