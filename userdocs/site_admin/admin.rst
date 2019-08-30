@@ -20,7 +20,7 @@
    :maxdepth: 3
 
    content/create
-   image_edit/index
+   content/image_edit/index
    incuts/index
    prog_attach/index
    tags/index
