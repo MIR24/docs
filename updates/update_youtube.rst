@@ -1,3 +1,5 @@
+.. _doc-incut-YouTube:
+
 **************************
 Врезка видео YouTube
 **************************
@@ -34,6 +36,8 @@
 .. |fail| image:: /images/youtube-fail.jpg
 
 ____
+
+.. _doc-CDN-video:
 
 **************************
 Видео плеер CDNvideo

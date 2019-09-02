@@ -3,7 +3,7 @@
 *************************
 
 .. toctree::
-   :caption: Оглавление
+   :caption: Содержание
    :maxdepth: 4
 
    terms
