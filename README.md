@@ -5,7 +5,7 @@
 Версии:  
 Актуальная:  
 [![label](https://img.shields.io/static/v1.svg?label=docs&message=master&color=brightgreen)](https://docs.mir24.tv/docs/mir24-docs/ru/master/index.html)   
-[![label](https://img.shields.io/static/v1.svg?label=Release-Notes&message=master&color=brightgreen)](https://docs.mir24.tv/docs/mir24-docs/ru/master/release/notes/0.23.html#)    
+[![label](https://img.shields.io/static/v1.svg?label=Release-Notes&message=master&color=brightgreen)](https://docs.mir24.tv/docs/mir24-docs/ru/master/release/notes/0.26.html)    
 [![label](https://img.shields.io/static/v1.svg?label=PDF&message=master&color=brightgreen)](https://docs.mir24.tv/media/pdf/mir24-docs/master/mir24-docs.pdf)   
    
 В разработке:   
