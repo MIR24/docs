@@ -24,7 +24,7 @@ Hidden notes
 * Первый уровень
 
     * Второй уровень
-    
+
         * Третий уровень
 
 
@@ -44,6 +44,8 @@ Hidden notes
 
 Ссылки
 ==================
+
+:doc:`Any text you want <image_edit/index>`
 
 `api <https://docs.mir24.tv/api/v2/?format=api>`_
 

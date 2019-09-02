@@ -46,7 +46,7 @@
    :caption: Документация
    :maxdepth: 3
 
-   Оглавление: <userdocs/index>
+   Оглавление <userdocs/index>
    .. userdocs/site_view/site
    .. userdocs/site_admin/admin
 

@@ -166,7 +166,7 @@ ____
 .. _Mir24tv-5775418f0ca5.json: https://mir24tv.atlassian.net/secure/attachment/25210/Mir24tv-5775418f0ca5.json
 .. _account-explorer: https://ga-dev-tools.appspot.com/account-explorer/
 
-.. image:: /images/admin/analytics-stat.jpg
+.. image:: /images/admin/menu_analytics.jpg
    :scale: 80
    :align: right
 
