@@ -54,6 +54,8 @@ ____
  * Пресс-релизы
 
 .. image:: /images/admin/youtube.jpg
+   :width: 98 %
+   :align: center
 
 Описание полей:
 

@@ -9,7 +9,7 @@
 
 Баг. MIRSCR-1202_
 -------------------------------------------
-RSS. Фид wifi.rss. Из рассылки удалена информация об авторе новости.
+RSS. Фид wifi.rss_. Из рассылки удалена информация об авторе новости.
 
 Из рассылки удален элемент ``<author></author>``
 
@@ -66,5 +66,8 @@ RSS. Фид wifi.rss. Из рассылки удалена информация 
   | &tag=//moevideo.biz/vast?ref=mir24.tv&impressionAfterPaid=1&youtubechangedate=
   | 2019-07-12T00:00:00Z&youtubesource=HRzi8-xBJ9Q
 
+
+
+..  _wifi.rss: https://mir24.tv/export/wifi.rss
 ..	_MIRSCR-1202: https://mir24tv.atlassian.net/browse/MIRSCR-1202
 ..	_MIRSCR-1130: https://mir24tv.atlassian.net/browse/MIRSCR-1130
