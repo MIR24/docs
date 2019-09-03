@@ -79,7 +79,7 @@
    ...
 
 
-собираются в общий файл с уникальным хэшем, что
+
 
 
 ..	_MIRSCR-1197: https://mir24tv.atlassian.net/browse/MIRSCR-1197
