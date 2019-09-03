@@ -20,7 +20,7 @@
    :caption: Оглавление
    :maxdepth: 3
 
-   content/create
+   content/content_page
    content/create_form
    content/image_edit/index
    incuts/index

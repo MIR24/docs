@@ -3,14 +3,14 @@
 ********************************************
 
 
-.. image:: /images/doc_news_edit_fields1.jpg
+.. image:: /images/admin/edit_form/news_fields1.jpg
    :width: 100 %
 
-.. image:: /images/doc_news_edit_fields2.jpg
+.. image:: /images/admin/edit_form/news_fields2.jpg
    :width: 100 %
 
-.. image:: /images/doc_news_edit_fields3.jpg
+.. image:: /images/admin/edit_form/news_fields3.jpg
    :width: 100 %
 
-.. image:: /images/doc_news_edit_fields4.jpg
+.. image:: /images/admin/edit_form/news_fields4.jpg
    :width: 100 %

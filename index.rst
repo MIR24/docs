@@ -44,7 +44,7 @@
 
 .. toctree::
    :caption: Документация
-   :maxdepth: 3
+   :maxdepth: 4
 
    Содержание <userdocs/index>
    .. userdocs/site_view/site

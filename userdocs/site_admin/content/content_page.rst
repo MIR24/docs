@@ -23,6 +23,7 @@
    :width: 30 %
 
 Видео
+
 ------------
 
 .. image:: /images/admin/menu_prog.jpg
