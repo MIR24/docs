@@ -12,6 +12,23 @@ Hidden notes
 Шаблоны
 ==========================
 
+
+.. raw:: html
+
+    <script type="text/javascript">
+    let shadow = ' box-shadow: black 2px 1px 8px 0px;';
+    var i=window.document.getElementsByTagName('img');
+    var img = window.document.images;
+    console.log(i[0],shadow,img)
+    console.log(img)
+    </script>
+    <script type="text/javascript">
+    for (keys in this.i) {
+      //console.log(i)//.style.cssText)
+    };
+    console.log(this)
+    </script>
+
 #. list
 #. list
 
@@ -109,8 +126,9 @@ raw:: html:
 ::
 
    .. |rawhtml| raw:: html
-   <a href="_sources/devnote/rst.rst.txt">View page source</a>
-   <br>
+
+       <a href="_sources/devnote/rst.rst.txt">View page source</a>
+       <br>
 
 Контейнер container
 ====================
