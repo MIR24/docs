@@ -135,8 +135,9 @@ raw:: html:
     </script>
 
     <style media="screen">
-        .rst-content img {
+        .figure img {
           box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+          margin-bottom: 7px;
       }
     </style>
 
@@ -211,6 +212,8 @@ raw:: html:
    | |menu|                | Lake                  |
    +-----------------------+-----------------------+
 
+.. figure:: /images/admin/edit_form/form0.png
+   :width: 40 %
 
 .. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-front-full.png
    :width: 60 %
