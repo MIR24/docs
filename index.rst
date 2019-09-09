@@ -2,6 +2,12 @@
 Мир24. Документация
 **************************
 
+.. raw:: html
+
+    <style media="screen">
+      .rst-content img {
+        box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+    }</style>
 
 .. toctree::
    :caption: Заметки по хотфиксам

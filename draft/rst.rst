@@ -12,31 +12,11 @@ Hidden notes
 Шаблоны
 ==========================
 
+hl
 
-.. raw:: html
-
-    <script type="text/javascript">
-    let shadow = ' box-shadow: black 2px 1px 8px 0px;';
-    var i=window.document.getElementsByTagName('img');
-    var img = window.document.images;
-    console.log(i[0],shadow,img)
-    console.log(img)
-    </script>
-    <script type="text/javascript">
-    for (keys in this.i) {
-      //console.log(i)//.style.cssText)
-    };
-    console.log(this)
-    </script>
-
-#. list
-#. list
-
-    #. list
-
-#. list
-
-* b
+#. numbered
+#. numbered
+#. numbered
 
 * Первый уровень
 
@@ -44,10 +24,15 @@ Hidden notes
 
         * Третий уровень
 
+
 Админка
     Административный интерфейс сайта «МИР24», предназначен для создания и управления контентом, публикациями и материалом отображаемом на сайте «МИР24». Административный интерфейс расположен по адресу: https://editors.mir24.tv
 
 :Пагинация: порядковая нумерация страниц, используемая в интерфейсе сайта или админке для постраничного вывода информации.
+
+::
+
+   code-block code-block code-block
 
 .. code-block:: rst
    :linenos:
@@ -115,7 +100,7 @@ MIRSCR-0000_
 
 
 raw:: html:
-------------
+=============
 
 |rawhtml|
 
@@ -123,12 +108,38 @@ raw:: html:
 
     <a href="../_sources/devnote/rst.rst.txt" rel="nofollow"> View page source</a>
 
-::
 
-   .. |rawhtml| raw:: html
+.. raw:: html
 
-       <a href="_sources/devnote/rst.rst.txt">View page source</a>
-       <br>
+    <script type="text/javascript">
+    var s={
+      n:'\n',t:'\t',l:'---'.repeat(6),htxt:'Hello! This is "raw: html" directive',
+      hello:function(){
+          let line = this.l.repeat(6)+this.n
+          let text = this.l.repeat(2)+this.htxt+this.l.repeat(2)+this.n
+          return line+text+line
+      }},
+    get={
+      img:window.document.getElementsByTagName('img'),
+      doc:this.document
+    },
+    Theme={
+      URL_ROOT:this.DOCUMENTATION_OPTIONS.URL_ROOT,
+      getCurrentURL:this.Documentation.getCurrentURL,
+      Documentation:Documentation,
+      SphinxRtd:this.SphinxRtdTheme,
+      Location:document.location
+    };
+    console.log(s.hello(),'get',get,s.n+'Theme',Theme)
+    console.log([]);
+    </script>
+
+    <style media="screen">
+        .rst-content img {
+          box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+      }
+    </style>
+
 
 Контейнер container
 ====================
@@ -195,24 +206,20 @@ raw:: html:
    +-----------------------+-----------------------+
    | Symbol                | Meaning               |
    +=======================+=======================+
-   | .. image:: tent.png   | Campground            |
+   | |menu|                | Campground            |
    +-----------------------+-----------------------+
-   | .. image:: waves.png  | Lake                  |
+   | |menu|                | Lake                  |
    +-----------------------+-----------------------+
-   | .. image:: peak.png   | Mountain              |
-   +-----------------------+-----------------------+
+
 
 .. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-front-full.png
    :width: 60 %
 
 
-src_
-
-.. _basic: _static\basic.css
-.. _src: /_sources/devnote/rst.rst.txt
+.. |menu| image:: /images/admin/menubtn.png
 
 
 .. code-block:: text
 
-  Regex
+   Regex
    MIRSCR-.*$
