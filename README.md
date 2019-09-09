@@ -11,8 +11,8 @@
 В разработке:   
 [![label](https://img.shields.io/static/v1.svg?label=docs&message=develop&color=blue)](https://docs.mir24.tv/docs/mir24-docs/ru/develop/)  
    
-[devnote-mirmap](https://docs.mir24.tv/docs/mir24-docs/ru/master/draft/samples.html)   
+[devnote-samples](https://docs.mir24.tv/docs/mir24-docs/ru/master/draft/samples.html)   
 [devnote-rst](https://docs.mir24.tv/docs/mir24-docs/ru/master/draft/rst.html)   
-[devnote-mirmap](https://docs.mir24.tv/docs/mir24-docs/ru/master/draft/mirmap.html)   
+[devnote-links](https://docs.mir24.tv/docs/mir24-docs/ru/master/draft/mirmap.html)   
 
 Неактивный хост [mir24-docs.readthedocs.io](https://mir24-docs.readthedocs.io/ru/latest/)
