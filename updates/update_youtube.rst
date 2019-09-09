@@ -53,7 +53,7 @@ ____
  * Интерактив
  * Пресс-релизы
 
-.. image:: /images/admin/youtube.jpg
+.. figure:: /images/admin/youtube.jpg
    :width: 98 %
    :align: center
 
@@ -76,7 +76,7 @@ ____
 
 Видео добавится перед текстом публикации.
 
-.. image:: /images/admin/cdn-on-site.jpg
+.. figure:: /images/admin/cdn-on-site.jpg
    :width: 60 %
    :align: center
 
@@ -88,7 +88,7 @@ ____
 1. Необходимо загрузить видео по кнопке "Загрузить локальный файл"
 --------------------------------------------------------------------
 
-.. image:: /images/admin/edit_form/uploadvideo2.jpg
+.. figure:: /images/admin/edit_form/uploadvideo2.jpg
    :width: 80 %
    :align: center
 
@@ -97,7 +97,7 @@ ____
  * Скачать видео
  * Удалить видео из публикации
 
-.. image:: /images/admin/edit_form/uploadvideo3.jpg
+.. figure:: /images/admin/edit_form/uploadvideo3.jpg
    :width: 60 %
    :align: center
 
@@ -107,12 +107,12 @@ ____
 2. Необходимо указать ID в поле "ID видео на YouTube"
 --------------------------------------------------------------
 
-.. image:: /images/admin/edit_form/uploadvideo4.jpg
+.. figure:: /images/admin/edit_form/uploadvideo4.jpg
    :width: 80 %
    :align: center
 
 После указания ``ID`` видео из YouTube в публикации будет сгенерирован плеер ``CDNvideo`` в котором будет видео из YouTube.
 
-.. image:: /images/admin/youtube-cd.jpg
+.. figure:: /images/admin/youtube-cd.jpg
    :width: 80 %
    :align: center
