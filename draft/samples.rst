@@ -11,7 +11,7 @@ directive
 
 .. |rawhtml| raw:: html
 
-    <a href="../_sources/devnote/rst.rst.txt" rel="nofollow"> View page source</a>
+    <a href="../_sources/draft/rst.rst.txt" rel="nofollow"> View page source</a>
 
 style
 --------
@@ -19,9 +19,10 @@ style
 .. raw:: html
 
     <style media="screen">
-      .rst-content img {
-        box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
-    }</style>
+        .figure img {
+          box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+          margin-bottom: 7px;}
+    </style>
 
 tables
 ===========
@@ -41,6 +42,25 @@ tables
 images
 ========
 
+::
+
+   :align: top middle bottom left center right
+   :width: 30 %
+   :scale:
+
+.. image:: /images/admin/cdn-on-site.jpg
+   :width: 40 %
+
+С подписью
+-------------
+.. figure:: /images/admin/cdn-on-site.jpg
+   :scale: 50 %
+   :alt: map to buried treasure
+
+   This is the caption of the figure (a simple paragraph).
+
+Подстановка
+----------------
     * |sucss| Валидация успешна, ID-видео является корректным.
     * |fail| Валидация прошла неудачно, указанное значение в поле не является корректным, нет видео с данным ID на YouTube.
 

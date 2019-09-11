@@ -64,6 +64,17 @@ MIRSCR-0000_
 Таблицы
 ====================
 
+
+
+.. list-table:: Описание обязательных и опциональных элементов
+
+    * - Элемент
+      - Обязательный
+      - Комментарии
+    * - <?xml version="1.0" encoding="UTF-8"?>
+      - да
+      - Версия спецификации RSS. Ссылка в начале этого документа ведёт на описание этой спецификации
+
 .. csv-table:: csv
    :header: "Response Data", type
    :widths: 30, 30
@@ -106,10 +117,16 @@ raw:: html:
 
 .. |rawhtml| raw:: html
 
-    <a href="../_sources/devnote/rst.rst.txt" rel="nofollow"> View page source</a>
+   <a href="../_sources/draft/rst.rst.txt" rel="nofollow"> View page source</a>
 
 
 .. raw:: html
+
+    <style media="screen">
+        .figure img {
+          box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+          margin-bottom: 7px;}
+    </style>
 
     <script type="text/javascript">
     var s={
@@ -130,16 +147,9 @@ raw:: html:
       SphinxRtd:this.SphinxRtdTheme,
       Location:document.location
     };
-    console.log(s.hello(),'get',get,s.n+'Theme',Theme)
+    console.log(s.hello(),'get',get,s.n+'Theme',Theme);
     console.log([]);
     </script>
-
-    <style media="screen">
-        .figure img {
-          box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
-          margin-bottom: 7px;
-      }
-    </style>
 
 
 Контейнер container
@@ -187,7 +197,6 @@ raw:: html:
    :align: top middle bottom left center right
    :width: 30 %
    :scale:
-
 
 .. image:: /images/admin/cdn-on-site.jpg
    :width: 40 %
