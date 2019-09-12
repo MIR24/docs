@@ -11,10 +11,11 @@
 .. toctree::
    :caption: Заметки по релизам
    :maxdepth: 1
-   :numbered:
    :glob:
+   :reversed:
 
    release/notes/*
+
 
 .. toctree::
    :caption: Обновления
