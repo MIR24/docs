@@ -71,8 +71,11 @@ images
    :width: 30 %
    :scale:
 
-.. image:: /images/admin/cdn-on-site.jpg
-   :width: 40 %
+.. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-front-full.png
+   :width: 60 %
+
+.. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-back-full.png
+   :width: 60 %
 
 С подписью
 -------------

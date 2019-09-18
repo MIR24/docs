@@ -228,6 +228,8 @@ raw:: html:
 .. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-front-full.png
    :width: 60 %
 
+.. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-back-full.png
+   :width: 60 %
 
 .. |menu| image:: /images/admin/menubtn.png
 

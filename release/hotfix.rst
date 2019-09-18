@@ -103,13 +103,15 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
    </a>
 
 
+Баг. MIRSCR-1162_
+-------------------------------------------
+Исправлены ошибки в коде ``Middleware/CachePage.php`` и ``views/staticPage.blade.php``
 
 
 
 
 
-
-
+..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1162
 ..	_MIRSCR-1202: https://mir24tv.atlassian.net/browse/MIRSCR-1202
 ..  _LiveInternet: https://www.liveinternet.ru/
 ..	_MIRSCR-1196: https://mir24tv.atlassian.net/browse/MIRSCR-1196
