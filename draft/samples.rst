@@ -30,6 +30,8 @@ links
 
 :doc:`Any text you want <image_edit/index>`
 
+:ref:`Статистика просмотров новостей в админке <google-analytics>`
+
 `api <https://docs.mir24.tv/api/v2/?format=api>`_
 
 MIRSCR-0000_

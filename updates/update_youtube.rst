@@ -37,7 +37,7 @@
 
 ____
 
-.. _doc-CDN-video:
+.. _doc-cdn-video:
 
 **************************
 Видео плеер CDNvideo
