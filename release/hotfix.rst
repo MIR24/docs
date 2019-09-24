@@ -103,12 +103,14 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
    </a>
 
 
-Баг. MIRSCR-1162_
+Задача. MIRSCR-1142
 -------------------------------------------
-Исправлены ошибки в коде ``Middleware/CachePage.php`` и ``views/staticPage.blade.php``
+Сайт. Плеер ``playercdn``. Обновлена генерация плеера для проигрывания Youtube.
+
+Добавлена новая версия: ``public/players``/mirtv_player_vod3.html_
 
 
-
+.. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
 
 
 ..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1162

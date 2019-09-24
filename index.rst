@@ -13,16 +13,13 @@
    :maxdepth: 1
    :glob:
    :reversed:
+   
 
+   Содержание <release/details>
    release/notes/*
 
 
-.. toctree::
-   :caption: Обновления
-   :maxdepth: 1
-   :numbered:
 
-   Обновления: <updates/taskdocs>
 
 
 .. toctree::

@@ -9,32 +9,76 @@
 
 
 
-MIRSCR-1162
+Баг. MIRSCR-1162
 ----------------------------
+Исправлена ошибка приводящая к падению amp-страницы публикации, с кодом ошибки 500.
 
-
-MIRSCR-698
+История. MIRSCR-698
 ----------------------------
 Сайт. Панель share-линков. Добавлена кнопка получения кода видео для встраивания плеера ``CDNvideo``.
 
 На панели share-линков добавлена кнопка получения кода видео с плеером ``CDNvideo`` из поля "Код для вставки" расположенного в админке.
 
 
-MIRSCR-774
+История. MIRSCR-774
 ----------------------------
+Сайт. Администрирование. Реализована возможность подключения виджета комментариев ``HyperComments`` в отдельных рубриках с помощью конфигурационных команд.
 
+Реализовано управление виджетом ``HyperComments`` в публикациях по отдельным рубрикам, позволяя включать/выключать виджет ``HyperComments`` у публикаций с определенным супертегом: ``mir24.tv/{НАЗВАНИЕ}/super``.
 
-MIRSCR-1216
+.. method:: php artisan show_hypercomments:list
+
+   Отображение таблицы с названием супертегоа ``translateTitle``, состоянии подключения модуля ``show_hypercomments`` и именем рубрики ``title``
+
+.. metod:: php artisan show_hypercomments:edit {translateTitle} {show_hypercomments}
+
+Название супертега (``mir24.tv/{НАЗВАНИЕ}/super``)
+  :code:`translateTitle`
+
+Подключение модуля (вкл=1/выкл=0)
+  :code:`show_hypercomments`
+
+.. code-block:: php
+
+  php artisan show_hypercomments:edit vo-ves-golos 1
+  Changed: for "vo-ves-golos" set 1
+
+История. MIRSCR-990
+-----------------------------
+Админка. Добавлена сортировка публикаций в списке по Дате публикации.
+
+История. MIRSCR-1216
 ----------------------------
+Админка. Уменьшен интервал между heartbeat запросами с 1 до 10 секунд.
 
+Снижена частота опроса соединения с сервером до 10 секунд.
 
-MIRSCR-1207
+Задача. MIRSCR-1207
 ----------------------------
+Обновление Google Analitics.
 
+Обновлена команда: ``statistic:google``
 
-MIRSCR-1145
+* Выборка за позавчера ``statistic:google --from_days=2``
+* Выборка за вчера ``statistic:google --from_days=1``
+* Выборка с лимитом записей ``statistic:google --limit=100 (100-300)``
+* Организовать сортировку по полю ``ga:uniquePagereviews``
+
+Задача. MIRSCR-1145
 ----------------------------
+Администрирование. Деплой. Изменен формат даты-времени в имени каталога релиза и БД.
 
+Изменен формат даты-времени релиза в имени каталога и БД с `ДД_МЕС_ЧЧ_ММ` на `20190924_1323`.
 
+.. code-block:: text
+
+   пример изменения:
+   mir24_dep_22_Jul_12_16 > mir24_dep_190722_1216
 
 ..	_MIRSCR-698: https://mir24tv.atlassian.net/browse/MIRSCR-698
+..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1162
+..	_MIRSCR-774: https://mir24tv.atlassian.net/browse/MIRSCR-774
+..	_MIRSCR-990: https://mir24tv.atlassian.net/browse/MIRSCR-990
+..	_MIRSCR-1216: https://mir24tv.atlassian.net/browse/MIRSCR-1216
+..	_MIRSCR-1207: https://mir24tv.atlassian.net/browse/MIRSCR-1207
+..	_MIRSCR-1145: https://mir24tv.atlassian.net/browse/MIRSCR-1145
