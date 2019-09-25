@@ -75,6 +75,15 @@ php artisan show_hypercomments:edit ``{translateTitle}`` ``{show_hypercomments}`
    пример изменения:
    mir24_dep_22_Jul_12_16 > mir24_dep_190722_1216
 
+Задача. MIRSCR-1142_
+-------------------------------------------
+Сайт. Плеер ``playercdn``. Обновлена генерация плеера для проигрывания Youtube.
+
+Добавлена новая версия: ``public/players``/mirtv_player_vod3.html_
+
+
+.. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
+
 ..	_MIRSCR-698: https://mir24tv.atlassian.net/browse/MIRSCR-698
 ..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1162
 ..	_MIRSCR-774: https://mir24tv.atlassian.net/browse/MIRSCR-774
@@ -82,3 +91,4 @@ php artisan show_hypercomments:edit ``{translateTitle}`` ``{show_hypercomments}`
 ..	_MIRSCR-1216: https://mir24tv.atlassian.net/browse/MIRSCR-1216
 ..	_MIRSCR-1207: https://mir24tv.atlassian.net/browse/MIRSCR-1207
 ..	_MIRSCR-1145: https://mir24tv.atlassian.net/browse/MIRSCR-1145
+..	_MIRSCR-1142: https://mir24tv.atlassian.net/browse/MIRSCR-1142
