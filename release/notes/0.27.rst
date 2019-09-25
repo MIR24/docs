@@ -1,5 +1,5 @@
 **********************************************
-Релиз 0.27 (ST-1006_) от -.09.2019
+Релиз 0.27 (ST-1006_) от 25.09.2019
 **********************************************
 
 .. _ST-1006: https://mir24tv.atlassian.net/browse/ST-1006
@@ -26,17 +26,17 @@
 
 Реализовано управление виджетом ``HyperComments`` в публикациях по отдельным рубрикам, позволяя включать/выключать виджет ``HyperComments`` у публикаций с определенным супертегом: ``mir24.tv/{НАЗВАНИЕ}/super``.
 
-.. method:: php artisan show_hypercomments:list
+php artisan show_hypercomments:list
+ Отображение таблицы с названием супертего ``translateTitle``, состоянии подключения модуля ``show_hypercomments`` и именем рубрики ``title``
 
-   Отображение таблицы с названием супертегоа ``translateTitle``, состоянии подключения модуля ``show_hypercomments`` и именем рубрики ``title``
+php artisan show_hypercomments:edit ``{translateTitle}`` ``{show_hypercomments}``
+ Включение/Выключение виджета комментариев
 
-.. metod:: php artisan show_hypercomments:edit {translateTitle} {show_hypercomments}
+:code:`translateTitle`
+ Название супертега (``mir24.tv/{НАЗВАНИЕ}/super``)
 
-Название супертега (``mir24.tv/{НАЗВАНИЕ}/super``)
-  :code:`translateTitle`
-
-Подключение модуля (вкл=1/выкл=0)
-  :code:`show_hypercomments`
+:code:`show_hypercomments`
+ Подключение модуля (вкл=1/выкл=0)
 
 .. code-block:: php
 
@@ -68,7 +68,7 @@
 ----------------------------
 Администрирование. Деплой. Изменен формат даты-времени в имени каталога релиза и БД.
 
-Изменен формат даты-времени релиза в имени каталога и БД с `ДД_МЕС_ЧЧ_ММ` на `20190924_1323`.
+Изменен формат даты-времени релиза в имени каталога и БД с `ДД_МЕС_ЧЧ_ММ` на `ГГГГММДД_ЧЧММ`.
 
 .. code-block:: text
 

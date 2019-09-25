@@ -13,13 +13,9 @@
    :maxdepth: 1
    :glob:
    :reversed:
-   
 
    Содержание <release/details>
    release/notes/*
-
-
-
 
 
 .. toctree::
@@ -29,7 +25,6 @@
    updates/update_publication
    updates/update_uploadfile
    updates/update_youtube
-
 
 ..
   .. toctree::
@@ -41,7 +36,7 @@
 
 .. toctree::
    :caption: Документация
-   :maxdepth: 4
+   :maxdepth: 3
 
    Содержание <userdocs/index>
    .. userdocs/site_view/site
