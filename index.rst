@@ -2,11 +2,6 @@
 Мир24. Документация
 **************************
 
-.. toctree::
-   :caption: Заметки по хотфиксам
-   :maxdepth: 1
-
-   release/hotfix
 
 .. toctree::
    :caption: Заметки по релизам
@@ -14,9 +9,19 @@
    :glob:
    :reversed:
 
-   Содержание <release/details>
    release/notes/*
 
+.. toctree::
+   :caption: Заметки по хотфиксам
+   :maxdepth: 1
+
+   release/hotfix
+
+.. toctree::
+   :caption: Описание обновлений
+   :maxdepth: 3
+
+   Обновления <release/details>
 
 .. toctree::
    :caption: Документация по обновлениям
@@ -25,6 +30,7 @@
    updates/update_publication
    updates/update_uploadfile
    updates/update_youtube
+
 
 ..
   .. toctree::
