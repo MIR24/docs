@@ -160,13 +160,6 @@ ____
 Админка. Google-Аналитика. Статистика просмотров. Реализован отчет о статистике просмотров новостей.
 Для работы функционала необходимы *ключи для Google.API аналитики*.
 
-| Файл с aouth данными, хранится по ссылке: - Mir24tv-5775418f0ca5.json_;
-| ``Google view id``: account-explorer_;
-| ``GA_MEASUREMENT_ID`` – на идентификатор отслеживания ресурса Google Аналитики.
-
-.. _Mir24tv-5775418f0ca5.json: https://mir24tv.atlassian.net/secure/attachment/25210/Mir24tv-5775418f0ca5.json
-.. _account-explorer: https://ga-dev-tools.appspot.com/account-explorer/
-
 .. image:: /images/admin/menu_analytics.jpg
    :scale: 80
    :align: right

@@ -229,6 +229,13 @@ RSS. Фид wifi.rss. Произведена стандартизация фид
 
  Реализованы изменения в правилах формирования RSS фида wifi.rss_.
 
+.. raw:: html
+
+    <style media="screen">
+        .figure img {
+          box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+          margin-bottom: 7px;}
+    </style>
 
 ..  _страницах: https://mir24.tv/topic/7887046
 ..  _wifi.rss: https://mir24.tv/export/wifi.rss
