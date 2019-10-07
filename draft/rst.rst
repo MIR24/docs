@@ -12,7 +12,7 @@ Hidden notes
 Шаблоны
 ==========================
 
-:menuselection:`Файл --> О&ткрыть`
+:menuselection:`Файл --> &Открыть`
 :guilabel:`&Открыть`
 
 #. numbered

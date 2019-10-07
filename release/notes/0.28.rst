@@ -1,6 +1,103 @@
 **********************************************
-Релиз 0.28 (ST-1020_) от -.10.2019
+Релиз 0.28 (ST-1020_) от 07.10.2019
 **********************************************
 
-
 .. _ST-1020: https://mir24tv.atlassian.net/browse/ST-1020
+
+.. raw:: html
+
+   <style media="screen">
+        .figure img {
+          box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+          margin-bottom: 7px;}
+    </style>
+
+
+
+История. MIRSCR-1107_
+----------------------------
+Админка. Редактирование подвала. Добавлена возможность редактирования кнопок в строке соцсетей: "Мы на связи!" на футере сайта.
+
+Реализован функционал редактирования кнопок на строке соцсетей, с помощью в интерфейса Админки.
+В интерфейсе редактирования: :guilabel:`&Меню` --> :guilabel:`&Управление` --> :guilabel:`&Редактирование подвала`, добавлено поле :guilabel:`&Кнопки соцсетей`.
+
+
+.. figure:: /images/admin/Control_edit_footer_social.jpg
+   :align: center
+   :width: 70 %
+
+По нажатию на поле :guilabel:`&Кнопки соцсетей` открывается форма редактирования ссылок для существующих кнопок.
+
+.. figure:: /images/admin/Control_edit_footer_social_form.jpg
+   :align: center
+   :width: 70 %
+
+Для изменения кнопки необходимо:
+
+#. Указать ссылку для кнопки соцсети в форме редактирования :guilabel:`&Меню` --> :guilabel:`&Управление` --> :guilabel:`&Редактирование подвала` --> :guilabel:`&Кнопки соцсетей`
+
+#. Загрузить иконку для кнопки в `Frontend-server`, добавить её ИМЯ и КЛАСС в таблицу стилей ``***Layout***-***.css`` и пересобрать css.
+
+
+.. code-block:: css
+
+   .КЛАСС1 {
+    background-image: url(../images/ИМЯ1.png)
+   }
+
+
+:code:`background-image: url(../images/ИМЯ1.png)`
+ Имя файла иконки для кнопки соцсети
+
+:code:`.social-blue .КЛАСС1,.white-footer .КЛАСС1 {}`
+ Класс файла иконки до наведения курсором
+
+:code:`.social-blue .КЛАСС1:hover,.white-footer .КЛАСС1:hover`
+ Класс файла иконки после наведения курсором
+
+
+Пример иконки  для кнопки соцсети №1:
+
+* иконка: |f1| (../images/f1.png)
+* иконка после наведения курсором: |s1| (../images/s1.png)
+
+.. |f1| image:: https://dev3.mir24.tv/images/f1.png
+
+.. |s1| image:: static/0.28-fig.jpg
+
+
+
+.. code-block:: css
+
+   .s1 {
+       background-image: url(../images/s1.png)
+   }
+
+   .social-blue .s1,.white-footer .s1 {
+       background-image: url(../images/f1.png)
+   }
+
+   .social-blue .s1:hover,.white-footer .s1:hover {
+       background-image: url(../images/s1.png)
+   }
+
+Баг. MIRSCR-1226_
+----------------------------
+Администрирование. Backend-server. Исправления в .htaccess. Исправлена проблема роутинга, приводящая к некорректному преобразованию url запроса.
+
+Исправлена ошибка перенаправления на обычный index.php. приводящая к преобразованию url запроса:
+
+* ``/api/v1/programm/20/0?_url=%2Fapi%2Fv1%2Fprogramm%2F20%2F0&brand_name=hi``
+
+Вместо:
+
+* ``/api/v1/programm/20/0?brand_name=hi``
+
+Задача. MIRSCR-1018_
+----------------------------
+Администрирование. Исправлена проблема приводящая к зависанию Админки при редактировании телепрограммы.
+
+
+..	_MIRSCR-1226: https://mir24tv.atlassian.net/browse/MIRSCR-1226
+..	_MIRSCR-1107: https://mir24tv.atlassian.net/browse/MIRSCR-1107
+..	_MIRSCR-1018: https://mir24tv.atlassian.net/browse/MIRSCR-1018
