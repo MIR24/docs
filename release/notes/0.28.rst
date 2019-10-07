@@ -4,6 +4,9 @@
 
 .. _ST-1020: https://mir24tv.atlassian.net/browse/ST-1020
 
+.. contents:: Содержание
+   :depth: 2
+
 .. raw:: html
 
    <style media="screen">
@@ -12,7 +15,7 @@
           margin-bottom: 7px;}
     </style>
 
-
+j
 
 История. MIRSCR-1107_
 ----------------------------
@@ -36,8 +39,7 @@
 
 #. Указать ссылку для кнопки соцсети в форме редактирования :guilabel:`&Меню` --> :guilabel:`&Управление` --> :guilabel:`&Редактирование подвала` --> :guilabel:`&Кнопки соцсетей`
 
-#. Загрузить иконку для кнопки в `Frontend-server`, добавить её ИМЯ и КЛАСС в таблицу стилей ``***Layout***-***.css`` и пересобрать css.
-
+#. Загрузить иконку для кнопки в `Frontend-server`, добавить её ИМЯ и КЛАСС в  таблицу стилей ``***Layout***-***.css`` и пересобрать css.
 
 .. code-block:: css
 
@@ -52,7 +54,7 @@
 :code:`.social-blue .КЛАСС1,.white-footer .КЛАСС1 {}`
  Класс файла иконки до наведения курсором
 
-:code:`.social-blue .КЛАСС1:hover,.white-footer .КЛАСС1:hover`
+:code:`.social-blue .КЛАСС1:hover,.white-footer .КЛАСС1:hover {}`
  Класс файла иконки после наведения курсором
 
 

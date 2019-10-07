@@ -3,5 +3,5 @@
 ********************************************
 
 
-.. image:: /images/admin/edit_form/topic_fields.jpg
+.. image:: /images/admin/edit_form/topic_fields.png
    :width: 100 %
