@@ -62,7 +62,7 @@
 * иконка: |f1| (../images/f1.png)
 * иконка после наведения курсором: |s1| (../images/s1.png)
 
-.. |f1| image:: static/0.28-f1.png
+.. |f1| image:: static/f1.png
 
 .. |s1| image:: static/0.28-fig.jpg
 
