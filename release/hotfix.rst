@@ -115,8 +115,8 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 
 .. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
 
-..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/ST-1023
-..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1142
+..	_MIRSCR-1023: https://mir24tv.atlassian.net/browse/ST-1023
+..	_MIRSCR-1142: https://mir24tv.atlassian.net/browse/MIRSCR-1142
 ..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1162
 ..	_MIRSCR-1202: https://mir24tv.atlassian.net/browse/MIRSCR-1202
 ..  _LiveInternet: https://www.liveinternet.ru/
