@@ -103,16 +103,20 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
    </a>
 
 
-Задача. MIRSCR-1142
+Задача. MIRSCR-1142_
 -------------------------------------------
 Сайт. Плеер ``playercdn``. Обновлена генерация плеера для проигрывания Youtube.
 
-Добавлена новая версия: ``public/players``/mirtv_player_vod3.html_
+Добавлена новая версия: ``public/players/mirtv_player_vod3.html``
 
+Задача. ST-1023_
+-------------------------------------------
+Админка. Исправлена проблема загрузки в админку файла телепрограммы на следующую неделю.
 
 .. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
 
-
+..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/ST-1023
+..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1142
 ..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1162
 ..	_MIRSCR-1202: https://mir24tv.atlassian.net/browse/MIRSCR-1202
 ..  _LiveInternet: https://www.liveinternet.ru/
