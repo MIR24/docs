@@ -4,28 +4,38 @@
 
 
 .. toctree::
-   :caption: Заметки по релизам
    :maxdepth: 1
-   :glob:
-   :reversed:
 
-   release/notes/*
+   release/notes/0.29.rst
+   release/notes/0.28.rst
+   release/notes/0.27.rst
+   release/notes/0.26.rst
+   release/notes/0.26.1.rst
+   release/notes/0.25.rst
+   release/notes/0.24.rst
+   release/notes/0.23.rst
+   release/notes/0.22.rst
+   release/notes/0.21.rst
+   release/notes/0.20.rst
+   release/notes/0.19.rst
+   release/notes/0.18.rst
+   release/notes/0.17.rst
+   release/notes/0.16.rst
+
 
 .. toctree::
-   :caption: Заметки по хотфиксам
    :maxdepth: 1
 
    release/hotfix
 
 .. toctree::
-   :caption: Описание обновлений
    :maxdepth: 3
 
-   Обновления <release/details>
+   release/details
 
 .. toctree::
    :caption: Документация по обновлениям
-   :maxdepth: 3
+   :maxdepth: 2
 
    updates/update_publication
    updates/update_uploadfile
