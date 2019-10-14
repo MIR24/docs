@@ -2,8 +2,8 @@
 Мир24. Документация
 **************************
 
-
 .. toctree::
+   :caption: Релизная документация
    :maxdepth: 1
 
    release/notes/0.29.rst
@@ -21,22 +21,13 @@
    release/notes/0.18.rst
    release/notes/0.17.rst
    release/notes/0.16.rst
-
-
-.. toctree::
-   :maxdepth: 1
-
    release/hotfix
-
-.. toctree::
-   :maxdepth: 3
-
-   release/details
 
 .. toctree::
    :caption: Документация по обновлениям
    :maxdepth: 2
 
+   release/details
    updates/update_publication
    updates/update_uploadfile
    updates/update_youtube
