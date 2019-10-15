@@ -2,5 +2,6 @@ process-palette.json
 conf*
 build
 PreviewLinks.html
+mirmap.rst
 _static
 _themes

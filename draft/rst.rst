@@ -65,6 +65,58 @@ Code with Sidebar
     :linenos:
     :lines: 1-40
 
+
+Topics, Sidebars, and Rubrics
+-----------------------------
+
+.. sidebar:: Sidebar Title
+   :subtitle: Optional Subtitle
+
+   This is a sidebar.  It is for text outside the flow of the main
+   text.
+
+   .. rubric:: This is a rubric inside a sidebar
+
+   Sidebars often appears beside the main text with a border and
+   background color.
+
+.. topic:: Topic Title
+
+   This is a topic.
+
+.. rubric:: This is a rubric
+
+Target Footnotes
+----------------
+
+.. target-notes::
+
+Replacement Text
+----------------
+
+I recommend you try |Python|_.
+
+.. |Python| replace:: Python, *the* best language around
+
+Compound Paragraph
+------------------
+
+.. compound::
+
+   This paragraph contains a literal block::
+
+       Connecting... OK
+       Transmitting data... OK
+       Disconnecting... OK
+
+   and thus consists of a simple paragraph, a literal block, and
+   another simple paragraph.  Nonetheless it is semantically *one*
+   paragraph.
+
+This construct is called a *compound paragraph* and can be produced
+with the "compound" directive.
+
+
 References
 ==========
 
