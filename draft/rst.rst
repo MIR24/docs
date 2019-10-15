@@ -2,94 +2,21 @@
 Hidden notes
 *******************
 
-.. note::
-    Скрытая страница для заметок и шаблонов по ReSt синтаксису.
+Also with ``sphinx.ext.autodoc``, which I use in the demo, I can link to :class:`test_py_module.test.Foo`.
+It will link you right to my code documentation for it.
 
+The default role for interpreted text is `Title Reference`.  Here are some explicit interpreted text roles:
+a PEP reference (:PEP:`287`); an RFC reference (:RFC:`2822`); a :sub:`subscript`; a :sup:`superscript`;
+and explicit roles for :emphasis:`standard` :strong:`inline` :literal:`markup`.
 
-.. contents:: содержание
-   :depth: 2
+GUI labels are a useful way to indicate that :guilabel:`Some action` is to be taken by the user.
+The GUI label should not run over ``line-height`` so as not to :guilabel:`interfere` with text from adjacent lines.
 
-Шаблоны
-==========================
-
-:menuselection:`Файл --> &Открыть`
-:guilabel:`&Открыть`
-
-#. numbered
-#. numbered
-#. numbered
-
-* Первый уровень
-
-    * Второй уровень
-
-        * Третий уровень
-
-
-Админка
-    Административный интерфейс сайта «МИР24», предназначен для создания и управления контентом, публикациями и материалом отображаемом на сайте «МИР24». Административный интерфейс расположен по адресу: https://editors.mir24.tv
-
-:Пагинация: порядковая нумерация страниц, используемая в интерфейсе сайта или админке для постраничного вывода информации.
-
-::
-
-   code-block code-block code-block
-
-.. code-block:: rst
-   :linenos:
-
-   Релиз 0.00 (ST-979_) от 00.00.2019
-
-   .. contents:: Содержание
-      :depth: 2
-
-   Баг. MIRSCR-0000_
-   ----------------------
-   text
-
-   .. |img| image:: /images/youtube-sucss.jpg
-   ..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
-
-Ссылки
-==================
-
-:doc:`Any text you want <image_edit/index>`
-
-`api <https://docs.mir24.tv/api/v2/?format=api>`_
-
-MIRSCR-0000_
-
-..	_MIRSCR-0000: https://mir24tv.atlassian.net/browse/MIRSCR-0000
-
-
-Таблицы
-====================
-
-
-
-.. list-table:: Описание обязательных и опциональных элементов
-
-    * - Элемент
-      - Обязательный
-      - Комментарии
-    * - <?xml version="1.0" encoding="UTF-8"?>
-      - да
-      - Версия спецификации RSS. Ссылка в начале этого документа ведёт на описание этой спецификации
-
-.. csv-table:: csv
-   :header: "Response Data", type
-   :widths: 30, 30
-
-   "ID записи", "(uint8,autoincrement)"
-   "entity_id", "( = entity_id news table)"
-
-+----------------------------------------+-----------------------+
-| Symbol                                 | Meaning               |
-+========================================+=======================+
-| .. image:: /images/admin/menubtn.png   | Campground            |
-+----------------------------------------+-----------------------+
-
-
+Key-bindings indicate that the read is to press a button on the keyboard or mouse,
+for example :kbd:`MMB` and :kbd:`Shift-MMB`. Another useful markup to indicate a user action
+is to use ``menuselection`` this can be used to show short and long menus in software.
+For example, and ``menuselection`` can be seen here that breaks is too long to fit on this line.
+:menuselection:`My --> Software --> Some menu --> Some sub menu 1 --> sub menu 2`.
 
 
 Замена "replace"
@@ -100,15 +27,6 @@ MIRSCR-0000_
 
 .. |{project}| replace:: MIRSCR
 .. |{tnum}| replace:: 839
-
-
-.. code-block:: ReSt
-
-   |{project}|-|{tnum}|
-   --------------------
-
-   .. |{project}| replace:: MIRSCR
-   .. |{tnum}| replace:: 839
 
 
 raw:: html:
@@ -130,111 +48,62 @@ raw:: html:
     </style>
 
     <script type="text/javascript">
-    var s={
-      n:'\n',t:'\t',l:'---'.repeat(6),htxt:'Hello! This is "raw: html" directive',
-      hello:function(){
-          let line = this.l.repeat(6)+this.n
-          let text = this.l.repeat(2)+this.htxt+this.l.repeat(2)+this.n
-          return line+text+line
-      }},
-    get={
-      img:window.document.getElementsByTagName('img'),
-      doc:this.document
-    },
-    Theme={
-      URL_ROOT:this.DOCUMENTATION_OPTIONS.URL_ROOT,
-      getCurrentURL:this.Documentation.getCurrentURL,
-      Documentation:Documentation,
-      SphinxRtd:this.SphinxRtdTheme,
-      Location:document.location
-    };
-    console.log(s.hello(),'get',get,s.n+'Theme',Theme);
-    console.log([]);
+    console.log([document]);
     </script>
 
 
-Контейнер container
-====================
-.. container:: page-screen
+Code with Sidebar
+-----------------
 
-   |form|
+.. sidebar:: A code example
 
+    With a sidebar on the right.
 
+.. literalinclude:: test_py_module/test.py
+    :language: python
+    :caption: Literal includes can also have captions.
+    :linenos:
+    :lines: 1-40
 
-.. |form| replace::
-   |fig|
-   |fig1|
+References
+==========
 
-.. |fig| image:: /images/admin/edit_form/form0.png
-.. |fig1| image:: /images/admin/edit_form/form1.png
+Footnotes
+---------
 
+.. [1] A footnote contains body elements, consistently indented by at
+   least 3 spaces.
 
-Секции
-================
+   This is the footnote's second paragraph.
 
-.. code-block:: rst
+.. [#label] Footnotes may be numbered, either manually (as in [1]_) or
+   automatically using a "#"-prefixed label.  This footnote has a
+   label so it can be referred to from multiple places, both as a
+   footnote reference ([#label]_) and as a hyperlink reference
+   (label_).
 
-   *******************
-   Page 1
-   *******************
-    Section 1
-    ============
+.. [#] This footnote is numbered automatically and anonymously using a
+   label of "#" only.
 
-    Subsection 2
-    ------------------
-    Subsubsection 3
-    ^^^^^^^^^^^^^^^^^^^^^^
-    Paragraph 4
-    """"""""""""""""""
-    Paragraph 5
-    ~~~~~~~~~~~~~~~~~~
+.. [*] Footnotes may also use symbols, specified with a "*" label.
+   Here's a reference to the next footnote: [*]_.
 
+.. [*] This footnote shows the next symbol in the sequence.
 
-Изображения
-================
+.. [4] Here's an unreferenced footnote, with a reference to a
+   nonexistent footnote: [5]_.
 
-::
+Citations
+---------
 
-   :align: top middle bottom left center right
-   :width: 30 %
-   :scale:
+.. [11] This is the citation I made, let's make this extremely long so that we can tell that it doesn't follow the normal responsive table stuff.
 
-.. image:: /images/admin/cdn-on-site.jpg
-   :width: 40 %
+.. [12] This citation has some ``code blocks`` in it, maybe some **bold** and
+       *italics* too. Heck, lets put a link to a meta citation [13]_ too.
 
-С подписью
-
-.. figure:: /images/admin/cdn-on-site.jpg
-   :scale: 50 %
-   :alt: map to buried treasure
-
-   This is the caption of the figure (a simple paragraph).
-
-   The legend consists of all elements after the caption.  In this
-   case, the legend consists of this paragraph and the following
-   table:
-
-   +-----------------------+-----------------------+
-   | Symbol                | Meaning               |
-   +=======================+=======================+
-   | |menu|                | Campground            |
-   +-----------------------+-----------------------+
-   | |menu|                | Lake                  |
-   +-----------------------+-----------------------+
-
-.. figure:: /images/admin/edit_form/form0.png
-   :width: 40 %
-
-.. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-front-full.png
-   :width: 60 %
-
-.. image:: https://cheat.readthedocs.io/en/latest/_images/sphinx-cheatsheet-back-full.png
-   :width: 60 %
-
-.. |menu| image:: /images/admin/menubtn.png
+.. [13] This citation will have two backlinks.
 
 
-.. code-block:: text
+Here's a reference to the above, [12]_, and a [nonexistent]_ citation.
 
-   Regex
-   MIRSCR-.*$
+Here is another type of citation: `citation`
