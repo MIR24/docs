@@ -66,7 +66,7 @@ RSS. Фид wifi.rss. Передача фотографий источника "
 
 
 Баг. MIRSCR-1146_
-------------------------------------------
+------------------------------------
 Yandex Turbo. RSS yandex_ Исправлена ошибка отображения видео/фото в турбо-страницах.
 
 Исправлена ошибка, при которой видео/фото из оригинала публикации не отображалось в турбо странице. Публикуемый медиа-контент в турбо странице, расположенный внутри ``<figure>`` перенесен выше тега ``<header>``.
@@ -91,15 +91,14 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 
 Баг. MIRSCR-1196_
 -------------------------------------------
-Сайт. Мобильная версия. Счетчик LiveInternet_.
-
-Исправлено отображение счетчика счётчика посещаемости в футоре ``mobile/footer.blade.php``
+Сайт. Мобильная версия. Счетчик LiveInternet_. Исправлено отображение счетчика счётчика посещаемости в футоре ``mobile/footer.blade.php``
 
 Счетчик:
 
 .. code-block:: html
 
-   <a href="http://www.liveinternet.ru/click" target=_blank><img src="//counter.yadro.ru/hit?t44.6;r" border='0' width='31' height='31'>
+   <a href="http://www.liveinternet.ru/click" target=_blank>
+    <img src="//counter.yadro.ru/hit?t44.6;r" border='0' width='31' height='31'>
    </a>
 
 
@@ -113,9 +112,16 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 -------------------------------------------
 Админка. Исправлена проблема загрузки в админку файла телепрограммы на следующую неделю.
 
-.. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
 
-..	_MIRSCR-1023: https://mir24tv.atlassian.net/browse/ST-1023
+Баг. MIRSCR-1231_
+-------------------------------------------
+Админка. Прикрепление изображений. Исправлена ошибка в работе функционала кадрирования кропов.
+
+
+
+..	_MIRSCR-1231: https://mir24tv.atlassian.net/browse/MIRSCR-1231
+.. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
+..	_ST-1023: https://mir24tv.atlassian.net/browse/ST-1023
 ..	_MIRSCR-1142: https://mir24tv.atlassian.net/browse/MIRSCR-1142
 ..	_MIRSCR-1162: https://mir24tv.atlassian.net/browse/MIRSCR-1162
 ..	_MIRSCR-1202: https://mir24tv.atlassian.net/browse/MIRSCR-1202
