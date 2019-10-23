@@ -114,12 +114,7 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 
 
 ..
-
-  Баг. MIRSCR-1231_
-  -------------------------------------------
-  Админка. Прикрепление изображений. Исправлена ошибка в работе функционала кадрирования кропов.
-
-
+   coment here
 
 ..	_MIRSCR-1231: https://mir24tv.atlassian.net/browse/MIRSCR-1231
 .. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
