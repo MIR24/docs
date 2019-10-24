@@ -70,6 +70,13 @@ images
      :width: 30 %
      :scale:
 
+terms
+============
+:term:`term1`
+
+  term 1 : classifier one : classifier two
+      Definition 1.
+
 code-blocks
 ============
 

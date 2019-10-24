@@ -2,6 +2,10 @@
 Hidden notes
 *******************
 
+directives_
+
+.. _directives: http://docutils.sourceforge.net/docs/ref/rst/directives.html#class
+
 Also with ``sphinx.ext.autodoc``, which I use in the demo, I can link to :class:`test_py_module.test.Foo`.
 It will link you right to my code documentation for it.
 
