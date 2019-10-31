@@ -1,0 +1,34 @@
+**********************************************
+Релиз 0.30 (ST-1033_) от 00.00.2019
+**********************************************
+
+.. _ST-1033: https://mir24tv.atlassian.net/browse/ST-1033
+
+.. contents:: Содержание
+   :depth: 2
+
+Баг. MIRSCR-1231_
+------------------------------------------
+:term:`Админка`. Публикация изображений. Исправлена ошибка в работе функционала кадрирования кропов.
+
+
+
+
+.. figure:: /images/admin/images_attach/img_attach_block.jpg
+   :scale: 70 %
+
+..	_MIRSCR-1231: https://mir24tv.atlassian.net/browse/MIRSCR-1231
+..	_MIRSCR-1218: https://mir24tv.atlassian.net/browse/MIRSCR-1218
+..	_MIRSCR-1167: https://mir24tv.atlassian.net/browse/MIRSCR-1167
+..	_MIRSCR-1168: https://mir24tv.atlassian.net/browse/MIRSCR-1168
+..	_MIRSCR-1169: https://mir24tv.atlassian.net/browse/MIRSCR-1169
+..	_MIRSCR-1170: https://mir24tv.atlassian.net/browse/MIRSCR-1170
+
+
+.. raw:: html
+
+    <style media="screen">
+        .figure img {
+          box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
+          margin-bottom: 7px;}
+    </style>
