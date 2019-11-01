@@ -1,6 +1,7 @@
 process-palette.json
-build
+_build
 PreviewLinks.html
 mirmap.rst
 _static
 _themes
+conf.py
