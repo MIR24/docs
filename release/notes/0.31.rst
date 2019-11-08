@@ -1,28 +1,47 @@
-**********************************************
-Релиз 0.30 (ST-1033_) от 00.00.2019
-**********************************************
+***********************************************
+Релиз 0.31 (ST-1033_) от 00.11.2019 (В работе)
+***********************************************
 
-.. _ST-1033: https://mir24tv.atlassian.net/browse/ST-1033
+.. _ST-1035: https://mir24tv.atlassian.net/browse/ST-1035
 
 .. contents:: Содержание
    :depth: 2
 
-Баг. MIRSCR-1231_
+Баг. MIRSCR-1166_
 ------------------------------------------
 :term:`Админка`. Публикация изображений. Исправлена ошибка в работе функционала кадрирования кропов.
 
+
+Баг. MIRSCR-419_
+------------------------------------------
+:term:`Админка`.
+
+Баг. MIRSCR-824_
+------------------------------------------
+
+
+Баг. MIRSCR-1165_
+------------------------------------------
+
+
+Баг. MIRSCR-1193_
+------------------------------------------
+
+
+Баг. MIRSCR-1225_
+------------------------------------------
 
 
 
 .. figure:: /images/admin/images_attach/img_attach_block.jpg
    :scale: 70 %
 
-..	_MIRSCR-1231: https://mir24tv.atlassian.net/browse/MIRSCR-1231
-..	_MIRSCR-1218: https://mir24tv.atlassian.net/browse/MIRSCR-1218
-..	_MIRSCR-1167: https://mir24tv.atlassian.net/browse/MIRSCR-1167
-..	_MIRSCR-1168: https://mir24tv.atlassian.net/browse/MIRSCR-1168
-..	_MIRSCR-1169: https://mir24tv.atlassian.net/browse/MIRSCR-1169
-..	_MIRSCR-1170: https://mir24tv.atlassian.net/browse/MIRSCR-1170
+..	_MIRSCR-1166: https://mir24tv.atlassian.net/browse/MIRSCR-1166
+..	_MIRSCR-419: https://mir24tv.atlassian.net/browse/MIRSCR-419
+..	_MIRSCR-824: https://mir24tv.atlassian.net/browse/MIRSCR-824
+..	_MIRSCR-1165: https://mir24tv.atlassian.net/browse/MIRSCR-1165
+..	_MIRSCR-1193: https://mir24tv.atlassian.net/browse/MIRSCR-1193
+..	_MIRSCR-1225: https://mir24tv.atlassian.net/browse/MIRSCR-1225
 
 
 .. raw:: html
