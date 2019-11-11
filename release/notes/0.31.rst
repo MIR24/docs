@@ -66,8 +66,6 @@
 
 Реализована возможность создания тегов при создании/редактировании врезок.
 
-.. figure:: /images/admin/images_attach/img_attach_block.jpg
-   :scale: 70 %
 
 ..	_MIRSCR-1166: https://mir24tv.atlassian.net/browse/MIRSCR-1166
 ..	_MIRSCR-419: https://mir24tv.atlassian.net/browse/MIRSCR-419
