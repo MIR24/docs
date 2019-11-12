@@ -23,7 +23,9 @@
    content/content_page
    content/create_form
    content/image_edit/index
+   incuts/template
    incuts/index
+
    prog_attach/index
    tags/index
    cache/index
