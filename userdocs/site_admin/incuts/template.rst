@@ -100,4 +100,8 @@ Template Врезки
    :align: center
    :scale: 70 %
 
-Затем снять чек-бокс "Активировать", далее будет доступна кнопка "Удалить"
+Затем снять чек-бокс "Активировать", нажать кнопку "Удалить"
+
+.. figure:: /images/admin/template_delete.jpg
+   :align: center
+   :scale: 70 %
