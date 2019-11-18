@@ -112,11 +112,16 @@ Yandex Turbo. RSS yandex_ Исправлена ошибка отображени
 -------------------------------------------
 Админка. Исправлена проблема загрузки в админку файла телепрограммы на следующую неделю.
 
+Баг. MIRSCR-1238_
+-------------------------------
+Google-Analitics. Исправлена ошибка при которой Google-Analitics показывает не все записи.
+
+При сохранении, уменьшена вероятность создания дубликатов. В случае, если дубликаты создались статистика не ломается.
 
 ..
    coment here
 
-..	_MIRSCR-1231: https://mir24tv.atlassian.net/browse/MIRSCR-1231
+..	_MIRSCR-1238: https://mir24tv.atlassian.net/browse/MIRSCR-1238
 .. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
 ..	_ST-1023: https://mir24tv.atlassian.net/browse/ST-1023
 ..	_MIRSCR-1142: https://mir24tv.atlassian.net/browse/MIRSCR-1142
