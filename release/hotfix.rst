@@ -118,9 +118,14 @@ Google-Analitics. Исправлена ошибка при которой Google
 
 При сохранении, уменьшена вероятность создания дубликатов. В случае, если дубликаты создались статистика не ломается.
 
+История. MIRSCR-1247_
+-------------------------------
+
 ..
    coment here
 
+
+..	_MIRSCR-1247: https://mir24tv.atlassian.net/browse/MIRSCR-1247
 ..	_MIRSCR-1238: https://mir24tv.atlassian.net/browse/MIRSCR-1238
 .. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html
 ..	_ST-1023: https://mir24tv.atlassian.net/browse/ST-1023
