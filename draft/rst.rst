@@ -63,11 +63,11 @@ Code with Sidebar
 
     With a sidebar on the right.
 
-.. literalinclude:: test_py_module/test.py
-    :language: python
+.. literalinclude:: samples.rst
+    :language: rst
     :caption: Literal includes can also have captions.
     :linenos:
-    :lines: 1-40
+    :lines: 1-10
 
 
 Topics, Sidebars, and Rubrics
