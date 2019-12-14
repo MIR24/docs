@@ -11,7 +11,7 @@
 
 :menuselection:`Файл --> &Открыть`
 :guilabel:`&Открыть`
-:guilabel:`&Меню` -- :guilabel:`&Служебные`
+:guilabel:`&Меню` -->> :guilabel:`&Служебные`
 
 Админка
     Административный интерфейс сайта «МИР24», предназначен для создания и управления контентом, публикациями и материалом отображаемом на сайте «МИР24». Административный интерфейс расположен по адресу: https://editors.mir24.tv
@@ -177,3 +177,25 @@ ex2
           box-shadow: #C3BBBB 3.5px 4px 4.4px 0.5px;
           margin-bottom: 7px;}
     </style>
+
+ex3
+--------
+
+Работа с полем текст |${n}|
+============================
+
+Работа с полем текст |${n}|
+============================
+
+Работа с полем текст |${n}|
+============================
+
+.. raw:: html
+
+   <script type="text/javascript">
+   window.onload=function(event){
+     console.log(event)
+     var fields={}
+     document.querySelectorAll(".document .nf").forEach((function(v,k){fields[k]=v;fields[k].innerText=`(№${k})`}))
+   }
+   </script>
