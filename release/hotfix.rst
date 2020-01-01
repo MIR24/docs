@@ -137,7 +137,7 @@ Google-Analitics. Исправлена ошибка при которой Google
 ..
    coment here
 
-
+..	_MIRSCR-989: https://mir24tv.atlassian.net/browse/MIRSCR-989
 ..	_MIRSCR-1247: https://mir24tv.atlassian.net/browse/MIRSCR-1247
 ..	_MIRSCR-1238: https://mir24tv.atlassian.net/browse/MIRSCR-1238
 .. _mirtv_player_vod3.html: https://playercdn.cdnvideo.ru/aloha/players/mirtv_player_vod3.html

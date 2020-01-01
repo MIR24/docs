@@ -13,7 +13,6 @@
 Описание особенностей работы с полями оформления текста публикуемого контента. Описанные руководства (как и поля) является общими для создания и редактирования публикаций во всех разделах категории "Контент":
 
  * Новости
- * Передачи
  * Видео
  * Фотоленты
  * Статьи
@@ -23,43 +22,92 @@
 
 ----
 
-Работа с полем текст
-======================
+Визуальный текстовый редактор
+===============================
 
 .. image:: /images/admin/edit_form/field_text.jpg
-   :width: 125 %
+   :width: 100 %
 
-..
-  Панель инструментов
-  Нажмите Alt+F10 для перехода к панели инструментов. Для перемещения между группами панели инструментов используйте TAB и SHIFT+TAB. Для перемещения между кнопками панели иструментов используйте кнопки ВПРАВО или ВЛЕВО. Нажмите ПРОБЕЛ или ENTER для запуска кнопки панели инструментов.
-  Диалоги
-  Внутри диалога, нажмите TAB чтобы перейти к следующему элементу диалога, нажмите SHIFT+TAB чтобы перейти к предыдущему элементу диалога, нажмите ENTER чтобы отправить диалог, нажмите ESC чтобы отменить диалог. Когда диалоговое окно имеет несколько вкладок, получить доступ к панели вкладок как части диалога можно нажатием или сочетания ALT+F10 или TAB, при этом активные элементы диалога будут перебираться с учетом порядка табуляции. При активной панели вкладок, переход к следующей или предыдущей вкладке осуществляется нажатием стрелки "ВПРАВО" или стрелки "ВЛЕВО" соответственно.
-  Контекстное меню
-  Нажмите Shift+F10 или клавишу APPLICATION, чтобы открыть контекстное меню. Затем перейдите к следующему пункту меню с помощью TAB или стрелкой "ВНИЗ". Переход к предыдущей опции - SHIFT+TAB или стрелкой "ВВЕРХ". Нажмите SPACE, или ENTER, чтобы задействовать опцию меню. Открыть подменю текущей опции - SPACE или ENTER или стрелкой "ВПРАВО". Возврат к родительскому пункту меню - ESC или стрелкой "ВЛЕВО". Закрытие контекстного меню - ESC.
-  Редактор списка
-  Внутри окна списка, переход к следующему пункту списка - TAB или стрелкой "ВНИЗ". Переход к предыдущему пункту списка - SHIFT+TAB или стрелкой "ВВЕРХ". Нажмите SPACE, или ENTER, чтобы задействовать опцию списка. Нажмите ESC, чтобы закрыть окно списка.
+.. image:: /images/admin/text_editor/text-paste-in-fornat3.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-paste-in-fornat2.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-paste-in-fornat1.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-in-notepad-result.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-in-notepad.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-in-word-result.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-in-word.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-write-br.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-write-p.jpg
+   :width: 100 %
+
+.. image:: /images/admin/text_editor/text-field-hrefEdit.jpg
+   :width: 100 %
 
 ----
 
 Использование форматирования
 ---------------------------------
 
+.. rubric:: Горячие клавиши:
 
-.. rubric:: Горячие клавиши команд
+* :kbd:`Ctrl+Z` - *Отменить*
+* :kbd:`Ctrl+Y` - *Повторить*
+* :kbd:`Enter` - *Переход на следующий абзац*
+* :kbd:`Shift+Enter` - *Перенос строки*
+* :kbd:`Shift+Ctrl+V` - *Вставить только текст*
+* :kbd:`Ctrl+B` - *Полужирный*
+* :kbd:`Ctrl+I` - *Курсив*
+* :kbd:`Ctrl+U` - *Подчеркнутый*
+* :kbd:`Ctrl+L` - *Гиперссылка*
+* :kbd:`Alt+0` - *Вызов справки*
 
-:Вызов справки: Alt+0
-:Отменить: Ctrl+Z
-:Полужирный: Ctrl+B
-:Курсив: Ctrl+I
-:Подчеркнутый: Ctrl+U
-:Гиперссылка: Ctrl+L
+При наполнении публикации текстом, одно или несколько предложений из которых состоит написанный фрагмент, сгруппированы в абзац(параграф):
+
+.. code-block:: html
+
+   <p>Написанный текст. Текст состоит из двух предложений.</p>.
+
+Разделение параграфов(переход на следующий абзац) происходит по нажатию клавиши :kbd:`Enter`:
+
+.. code-block:: html
+
+   <p>Текст внутри абзаца. Текст состоит из двух предложений.</p>
+
+   <p>Следующий абзац.</p>
+
+Перенос строки осуществляется по нажатию клавиш :kbd:`Shift+Enter`:
+
+.. code-block:: html
+
+   <p>Текст внутри абзаца. Текст состоит из двух предложений.</p>
+
+   <p>Следующий абзац.<br />
+   Перенос строки.</p>
 
 
+Текст в редакторе:
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. figure:: /images/text-field-write0.jpg
-   :width: 125 %
+.. figure:: /images/admin/text_editor/text-field-write0.jpg
+   :width: 120 %
 
-..  :scale: 110 %
+Исходный HTML-код:
+^^^^^^^^^^^^^^^^^^^^^^
 
 .. code-block:: html
 
@@ -85,8 +133,12 @@
    <em>Так же форматирование&nbsp;текста практически полностью совместимо с офисными программами типа
    </em>  <b><em>MS Word</em></b></p>
 
+Результат:
+^^^^^^^^^^^^^^^^^^^^^^
 
-.. image:: /images/text-field-result.jpg
+.. image:: /images/admin/text_editor/text-field-result.jpg
+
+
 
 ----
 
@@ -96,10 +148,10 @@
 
   Вставить только текст, нажмите Shift+Ctrl+V. Для MAC Control+Option+V согласно support.apple.com_
 
-.. image:: /images/text-in-word.jpg
+.. image:: /images/admin/text_editor/text-in-word.jpg
    :width: 125 %
 
-.. image:: /images/text-in-word-result.jpg
+.. image:: /images/admin/text_editor/text-in-word-result.jpg
    :width: 125 %
 
 ----
@@ -107,11 +159,11 @@
 Использование CSS-стилей
 ---------------------------------
 
-.. image:: /images/text-field-style0.jpg
+.. image:: /images/admin/text_editor/text-field-style0.jpg
    :width: 125 %
 
 
-.. image:: /images/html-style.jpg
+.. image:: /images/admin/text_editor/html-style.jpg
    :width: 105 %
 
 .. code-block:: html
@@ -121,13 +173,13 @@
 При переходе на следующий абзац (клавишей enter), стиль предыдущего параграфа p style=... остается на месте и не применяется к следующим параграфам в случае, если он взят в скобки «{...}»
 
 
-.. image:: /images/text-field-p-style.jpg
+.. image:: /images/admin/text_editor/text-field-p-style.jpg
    :width: 105 %
 
-.. image:: /images/text-field-p-style1.jpg
+.. image:: /images/admin/text_editor/text-field-p-style1.jpg
    :width: 105 %
 
-.. image:: /images/text-field-p-style2.jpg
+.. image:: /images/admin/text_editor/text-field-p-style2.jpg
    :width: 105 %
 
 
@@ -158,7 +210,7 @@
 
    {<style>p {padding: 1em;font-size: 19px;text-shadow: 0.5px 0.5px 5.5px #3de881;background-color: #2d2b2b; color: rgb(200,255,255)}<style>}
 
-.. image:: /images/text-field-style-result0.jpg
+.. image:: /images/admin/text_editor/text-field-style-result0.jpg
    :width: 80 %
 
 .. attention::
@@ -193,13 +245,13 @@
 Абзац скопирован из режима "Источник" одного документа в режим "Источник" другого документа,
 его ``<p style=".."..`` сохраняется и в обычном режиме редактирования текста, наследуется в следующие абзацы.
 
-.. image:: /images/text-field-p-style1-1.jpg
+.. image:: /images/admin/text_editor/text-field-p-style1-1.jpg
    :width: 105 %
 
-.. image:: /images/text-field-p-style2-1.jpg
+.. image:: /images/admin/text_editor/text-field-p-style2-1.jpg
    :width: 105 %
 
-.. image:: /images/text-field-p-style2-2.jpg
+.. image:: /images/admin/text_editor/text-field-p-style2-2.jpg
    :width: 105 %
 
 

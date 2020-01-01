@@ -26,6 +26,12 @@
    release/notes/0.16.rst
    release/hotfix
 
+
+.. sidebar:: Новые статьи:
+
+   Название
+
+
 .. toctree::
    :caption: Документация по обновлениям
    :maxdepth: 2
