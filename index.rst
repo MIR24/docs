@@ -37,6 +37,7 @@
    :caption: Документация по обновлениям
    :maxdepth: 2
 
+   release/notes/0.33.1.rst
    userdocs/site_admin/incuts/template
    release/details
    updates/update_publication
