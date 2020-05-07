@@ -6,6 +6,7 @@
    :caption: Релизная документация
    :maxdepth: 1
 
+   release/notes/0.35.rst
    release/notes/0.34.rst
    release/notes/0.33.1.rst
    release/notes/0.33.rst
@@ -39,7 +40,7 @@
    :caption: Документация по обновлениям
    :maxdepth: 2
 
-   release/notes/0.33.1.rst
+   release/notes/0.35.rst
    userdocs/site_admin/incuts/template
    release/details
    updates/update_publication
