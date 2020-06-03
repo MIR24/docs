@@ -5,7 +5,8 @@
 .. toctree::
    :caption: Релизная документация
    :maxdepth: 1
-
+   
+   release/notes/0.37.rst
    release/notes/0.36.rst
    release/notes/0.35.rst
    release/notes/0.34.rst
