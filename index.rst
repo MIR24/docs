@@ -6,6 +6,10 @@
    :caption: Релизная документация
    :maxdepth: 1
    
+   release/notes/0.41.rst   
+   release/notes/0.40.rst
+   release/notes/0.39.rst
+   release/notes/0.38.rst   
    release/notes/0.37.rst
    release/notes/0.36.rst
    release/notes/0.35.rst
